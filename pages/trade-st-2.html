@@ -1,0 +1,1724 @@
+<!DOCTYPE html>        <!--пошаговая открытие шорт-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+        <title>Проект</title>
+    </head>
+    
+    <body>      
+        <div class="header-box-1">
+            <div class="header-box-left">            
+                    <p class="header2">Управление позицией.</br> Управление капиталом.</p>  
+            </div>
+            <div class="header-box-right">
+                <div class="header-box-right1">
+                    <p>Автор:</br> Савченко</br> Алексей Михайлович </p>
+                </div>
+                <div class="header-box-right2 ">
+                    <p>Автор: Савченко Алексей Михайлович </p>
+                </div>
+                <div class="pic-head"><img src="head11.png"></div>
+            </div>
+        </div>
+        <div class="header-box-2">
+            
+            <button class="btn-mobil-menu-close" class="hidden"><a href="modal-menu.html">&#9776;</a></button>
+            <label class="menu-func" id="btnsRascet" for="menu-func" class="hidden">&fnof;(x)</label>
+            <label class="tab-persent" id="tabPersentMobil" for="tab-persent" class="hidden">%</label><!-- Кнопка активации модального окна-->
+            
+            <ul class="main-menu">
+                <li id="menu-mobil-1"><a href="#">Начало тренда</a>
+                    <ul class="sub-menu sb1">
+                        <li><a href="trade-l-1-1.html">Растущий фрактальный тренд</a></li>
+                        <li><a href="trade-sh-1-1.html">Падающий фрактальный тренд</a></li>
+                        <li><a href="trade-l-1-3.html">Сигнал МАСД на покупку</a></li>
+                        <li><a href="trade-sh-1-3.html">Сигнал МАСД на продажу</a></li>
+                        <li><a href="trade-l-1-2.html">Сигнал стохастика на покупку</a></li>
+                        <li><a href="trade-sh-1-2.html">Сигнал стохастика на продажу</a></li>
+                        <li><a href="trade-l-1-4.html">Сигнал "бамбука" на покупку</a></li>
+                        <li><a href="trade-sh-1-4.html">Сигнал "бамбука" на продажу</a></li>
+                        <li><a href="trade-l-1-5.html">Процедура определения пробоя вверх</a></li>
+                        <li><a href="trade-sh-1-5.html">Процедура определения пробоя вниз</a></li>
+                        <li><a href="trade-1-6.html">Блок-схемы работы по алгоритму</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Процедура открытия позиции</a>
+                    <ul class="sub-menu sb2">
+                        <li><a href="trade-l-2.html">Процедура открытия длинной позиции</a></li>
+                        <li><a href="trade-sh-2.html">Процедура открытия короткой позиции</a></li>
+                    </ul>
+                </li>	
+                <li><a href="#">Остановка тренда</a>
+                    <ul class="sub-menu sb3">
+                        <li><a href="trade-l-3-1.html">Признаки остановки растущего тренда</a></li>
+                        <li><a href="trade-sh-3-1.html">Признаки остановки падающего тренда</a></li>
+                        
+                        <li><a href="trade-l-3-2.html">Процедура расчета стандартного SL для long</a></li>
+                        <li><a href="trade-sh-3-2.html">Процедура расчета стандартного SL для short</a></li>
+                        <li><a href="trade-l-3-3.html">Построение отрезка дивергенции</a></li>
+                        <li><a href="trade-sh-3-3.html">Построение отрезка конвергенции</a></li>
+                    </ul>
+                </li>				
+                <li><a href="#">Свечные фигуры</a>
+                    <ul class="sub-menu sb4">
+                        <li><a href="trade-4-1.html">Типы свечных фигур</a></li>
+                        <li><a href="trade-l-4-2.html">Процедура определения свечной фигуры для long</a></li>
+                        <li><a href="trade-sh-4-2.html">Процедура определения свечной фигуры для short</a></li>
+                    </ul>
+                </li>	
+                <li><a href="#">ЛБ</a>
+                    <ul class="sub-menu sb5">
+                        <li><a href="trade-5-1.html">Линии Боллинджера (ЛБ) расходятся</a></li>
+                        <li><a href="trade-5-2.html">ЛБ1+: Двойной стоп-лосс (2хSL)</a></li>
+                        <li><a href="trade-5-3.html">ЛБ1+: Разрыв</a></li>
+                        <li><a href="trade-5-4.html">Изменение направления движения цены в ЛБ</a></li>
+                        <li><a href="trade-5-5.html">ЛБ3: Процедура Take-profit цели</a></li>
+                        <li><a href="trade-5-6.html">ЛБ4+: Процедура Два последних</a></li>
+                        <li><a href="trade-5-7.html">Процедура для удержания позиции в ЛБ4+</a></li>
+                        <li><a href="trade-5-8.html">«Ересь»</a></li>
+                        <li><a href="trade-5-9.html">ЛБ направлены в противоположную сторону к позиции</a></li>						
+                        
+                    </ul>
+                </li>
+                <li><a href="#">Фиксация прибыли</a>
+                    <ul class="sub-menu sb7">						
+                        <li><a href="trade-7-1.html">Крест в диапазоне</a></li>						
+                        <li><a href="trade-7-2.html">Сигналы MACD для процедуры Две последних</a></li>
+                        
+                        <li><a href="trade-7-3.html">Построение динамических уровней для Take-profit «Omega»</a></li>
+                        <li><a href="trade-7-4.html">Работа заявки Take-profit «Omega» в длинной позиции</a></li>
+                        <li><a href="trade-7-5.html">Работа заявки Take-profit «Omega» в короткой позиции</a></li>
+                        <li><a href="trade-7-6.html">Согласование Take-profit «Omega» и новой W</a></li>
+                        <li><a href="trade-7-7.html">Премиальное восстановление заявки Take-profit «Omega»</a></li>						
+                        <li><a href="trade-7-8.html">Построение уровней «АЛЬФА» и «GМ»</a></li>
+                        <li><a href="trade-7-9.html">Достижение и активация линий «АЛЬФА» и «GМ»</a></li>
+                        <li><a href="trade-7-10.html">Корректировка заявок Take-profit (ω) </a></li>
+                        <li><a href="trade-7-11.html">Во время работы SLGМ / SLα и заявки Take-profit(ω <sub>t-1</sub>)</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Размахи</a>
+                    <ul class="sub-menu sb6">
+                        <li><a href="trade-6-1.html">Построение целей движения по размахам</a></li>
+                        
+                        <li><a href="trade-6-5.html">Порядок действий при достижении третьей цели</a></li>
+                        <li><a href="trade-6-6.html">Расчет целей на калькуляторе</a></li>
+                        <li><a href="trade-6-7.html">Открытие позиции после пробоя линии цели</a></li>
+                        <li><a href="trade-l-1-5.html">Процедура определения пробоя вверх</a></li>
+                        <li><a href="trade-sh-1-5.html">Процедура определения пробоя вниз</a></li>	
+                        <li><a href="trade-l-3-3.html">Построение отрезка дивергенции</a></li>
+                        <li><a href="trade-sh-3-3.html">Построение отрезка конвергенции</a></li>
+                    </ul>
+                </li>
+            </ul>	        
+        </div>
+        <div class="short">
+			
+            <div class="main-text"><!--Текст лекций-->			<!--https://webriz.ru/36-sozdanie-uchebnogo-testa-s-otvetami.html-->
+				
+				<h1>Процедура открытия короткой позиции. </h1>
+								
+				<div id="vopros1" style="display:block;">
+					<p class="question">1.1. Свеча приказа является абсолютным крестом?</p>				
+				</div>
+				
+				<div id="vopros1ans" style="display:block;">
+					<button class="bth-step" onclick="otmena_prik_1();">да</button>
+					<button class="bth-step" onclick="sled_vopr_2();">нет</button>
+				</div>
+				
+				<div id="vopros2" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_1();">сбросить</button>
+					<p class="question">1.2. <span class="underline">Только при открытии позиции:</span><br> 
+					Гистограмма MACD подтверждает позицию?<br><br>
+					* <span class="italic">При добавлении позиции нажмите "да" </span></p>				
+				</div>
+				
+				<div id="vopros2ans" style="display:none;">
+					<button  class="bth-step" onclick="sled_vopr_3();">да</button>
+					<button class="bth-step" onclick="otmena_prik_2();">нет</button>
+					<!--<button  class="bth-step" onclick="sled_vopr_3();">далее</button>-->
+				</div>
+				
+				<div id="otmena_prik_1_no" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_1();">сбросить</button>
+					<p class="question"> Приказ отменяется.</p>
+				</div>
+				
+				<div id="vopros3" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_2();">сбросить</button>
+					<p class="question">1.3. <span class="underline">Только при открытии позиции:</span><br>
+						<span class="bold">На вышестоящем графике</span>:<br>
+						<span class="red">&#10022;</span> на текущей свече ADX ≤ 20 и <span class=" bold">понижается</span>?<br>	
+							ИЛИ<br>
+						<span class="red">&#10022;</span> на предыдущей свече ADX ≤ 20 и <span class=" bold">понижается</span>?<br>	
+						<br>
+						* <span class="italic">При добавлении позиции нажмите "нет" </span>
+					</p>
+				</div>
+				
+				<div id="vopros3ans" style="display:none;">
+					<button class="bth-step" onclick="otmena_prik_3();">да</button>
+					<button class="bth-step" onclick="sled_vopr_4();">нет</button>
+					<!--<button class="bth-step" onclick="sled_vopr_4();">далее</button>-->
+				</div>
+				
+				<div id="otmena_prik_2_no" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_2();">сбросить</button>
+					<p class="question"> Приказ отменяется.</p>
+				</div>
+				
+				<div id="vopros4" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_3();">сбросить</button>
+					<p class="question"> На свече ЕСТЬ четыре <span class="bold">подряд</span> гистограммы MACD <span class="red">красного</span> цвета?</p>
+				</div>
+				
+				<div id="vopros4ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_5();">да</button>
+					<button class="bth-step" onclick="sled_vopr_4A();">нет</button>
+				</div>
+				
+				<div id="otmena_prik_3_no" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_3();">сбросить</button>
+					<p class="question"> Приказ отменяется.</p>
+				</div>
+				
+				<div id="vopros5" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_4();">сбросить</button>
+					<p class="question">1.5.1. <span class="red">&#10003;</span> Свеча приказа достигла нижнюю ЛБ?<br>
+						И <br>	<span class="red">&#10003;</span> нижняя ЛБ направлена <span class="bold">вверх</span>?</p>
+				</div>
+				
+				<div id="vopros5ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_5_1();">да</button>
+					<button class="bth-step" onclick="sled_vopr_5_3();">нет</button>
+				</div>
+				
+				<div id="vopros4A" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_4A();">сбросить</button>
+					<p class="question">1.4.  <span class="red">&#10003;</span> Low свечи <span class="bold">меньше или равен</span> значению любого уровня цели W?<br>
+						И <br>	<span class="red">&#10003;</span> Close свечи <span class="bold">больше или равен</span> значению уровня цели W?</p>
+				</div>
+				
+				<div id="vopros4Aans" style="display:none;">
+					<button class="bth-step" onclick="otmena_prik_4A();">да</button>
+					<button class="bth-step" onclick="sled_vopr_5v();">нет</button>
+				</div>
+				
+				<div id="otmena_prik_4A_no" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_4AA();">сбросить</button>
+					<p class="question"> Приказ отменяется.</p>
+				</div>
+				
+				<div id="vopros5v" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_4AA();">сбросить</button>
+					<p class="question"> <span class="red">&#10003;</span> 1.5.1. Свеча приказа достигла нижнюю ЛБ?<br>
+						И <br>	<span class="red">&#10003;</span>  нижняя ЛБ направлена <span class="bold">вверх</span>?</p>
+				</div>
+				
+				<div id="vopros5vans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_5_1();">да</button>
+					<button class="bth-step" onclick="sled_vopr_5_3();">нет</button>
+				</div>
+				
+				<div id="vopros5_3" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_5_3();">сбросить</button>
+					<div class="question"> <span class="italic bold">1.5.4. Только при открытии позиции.</span><br> 
+					Свеча <span class="bold">приказа</span>: (изменение направления)
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> свеча находится в расходящихся ЛБ4+;</li>
+							<li><span class="red">&#10003;</span> свеча приказа в движении;</li>
+							<li><span class="red">&#10003;</span> третья слева свеча от ЛБ1: 
+								<ul class="no-disc">
+									<li><span class="red">&#10003;</span> закрывается выше SMA(10);</li>
+									<li><span class="red">&#10003;</span> является свечой расхождении ЛБ4+;</li>
+									<li><span class="red">&#10003;</span> находится в «деньгах».</li>
+								</ul>
+							</li>
+						</ul>
+					Выполнены все условия?<br><br>
+						* <span class="italic">При добавлении позиции нажмите "нет" </span>
+					</div>
+				</div>
+				
+				<div id="vopros5_3ans" style="display:none;">
+					<button class="bth-step" onclick="otmena_prik_5_3();">да</button>
+					<button class="bth-step" onclick="sled_vopr_5_4();">нет</button>
+				</div>
+				
+				<div id="otmena_prik_5_3_no" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_5_4();">сбросить</button>
+					<p class="question"> Приказ отменяется.</p>
+				</div>
+				
+				<div id="vopros5_1" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_5();">сбросить</button>
+					<p class="question"> Свеча приказа закрывается <span class="bold">выше</span> ЛБ ?</p>
+				</div>
+				
+				<div id="vopros5_1ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_5_1A();">да</button>
+					<button class="bth-step" onclick="sled_vopr_5_1AA();">нет</button>
+				</div>
+				
+				<div id="vopros5_1A" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_5_1AA();">сбросить</button>
+					<p class="question"> Мы находимся в «деньгах» ?</p>
+				</div>
+				
+				<div id="vopros5_1Aans" style="display:none;">
+					<button class="bth-step" onclick="otmena_prik_5_1A();">да</button>
+					<button class="bth-step" onclick="sled_vopr_5_1AAA();">нет</button>
+				</div>
+				
+				<div id="otmena_prik_5_1A_no" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_5_1A();">сбросить</button>
+					<p class="question"> Приказ отменяется.</p>
+				</div>
+				
+				<div id="vopros5_1AAA" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_5_1A();">сбросить</button>
+					<div class="question"> 
+						<ul class="no-disc italic">
+							<li>В графе «Дата ожидания» указываем: 
+								<ul class="disc">							
+									<li>следующую дату, Диапазон с пункта <span class="bold"><a href="lec-sh-2.html#point4">4</a></span> по сигналу (…);</li>						
+									<li>следующую дату, расчетная свеча с пункта <span class="bold"><a href="lec-sh-2.html#point10">10</a></span>. Сигнал (…);</li>	
+								</ul>															
+							</li>										
+							<li>В графе «Примечания» указываем: <span class="bold">приказ отложенный</span>;</li>								
+							<li>После <span class="bold">фактического открытия</span> выставляем:<br> <span class="bold">SL = High(свечи) + (%SL)</span>;</li>
+						</ul>
+						<p>* <span class="italic">Для свечи РЕШЕНИЯ нажмите "далее" </span></p>
+					 </div>
+				</div>
+								
+				<div id="vopros5_1AA" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_5_1AA();">сбросить</button>
+					<p class="question"> После фактического открытия выставляем:<br> SL = Low (свечи) + (% SL).
+					 </p>
+				</div>
+				
+				<div id="vopros5_1AAans" style="display:none;">					
+					<button class="bth-step" onclick="sled_vopr_6();">далее</button>
+				</div>
+				
+				<div id="vopros5_4" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_5_4();">сбросить</button>
+					<div class="question">1.5.5. <span class="italic bold">На свече приказа/решения проверяем (для Ересь):</span>
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span>  свеча находится в <span class="bold">ЛБ4+</span>;</li>		
+							<li><span class="red">&#10003;</span>  свечи находится в <span class="bold">движении</span>;</li>	
+							<li><span class="red">&#10003;</span> свеча закрывается со стороны позиции от <span class="bold">SMA(10)</span>;</li>
+							<li><span class="red">&#10003;</span>  начиная от <span class="bold">ЛБ1</span>, индикатор <span class="bold">ADX повышается</span>;</li>		
+							<li><span class="red">&#10003;</span>  на текущем и вышестоящем графиках гистограммы MACD с <span class="bold">одной стороны</span> от белой линии;</li>
+							<li><span class="red">&#10003;</span>  на текущем и вышестоящем графиках гистограммы MACD <span class="bold">одного цвета</span>; </li>		
+							<li><span class="red">&#10003;</span>  на <span class="bold">Close</span> свечи <span class="bold">не работает</span> Take-profit (цели).</li>	
+						</ul>
+					Выполнены все условия?</div>
+				</div>
+				
+				<div id="vopros5_4ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_5_4A();">да</button>
+					<button class="bth-step" onclick="sled_vopr_6v();">нет</button>
+				</div>
+				
+				<div id="vopros5_4A" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_5_4A();">сбросить</button>
+					<div class="question"> 
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> Если ближайшим слева от свечи приказа/решения является <span class=" bold">разрешающий</span> фрактал (<span class=" green">зеленый</span> максимум), то стоп заявку выставляем на <span class=" underline">уровне этого фрактала</span>;</li>
+							<li><span class="red">&#10003;</span> Если ближайшим слева от свечи приказа/решения является <span class=" bold">запрещающий</span> фрактал (<span class=" red">красный</span> минимум), то стоп заявку выставляем на <span class=" underline">свече приказа</span>.</li>
+						</ul>
+					</div>	
+				</div>
+			
+				<div id="vopros5_4Aans" style="display:none;">					
+					<button class="bth-step" onclick="sled_vopr_9v_1();">далее</button>
+				</div>
+				
+				<div id="vopros6" style="display:none;">
+					<button class="bth-step-v">далее</button>					
+					<button class="bth-step-cansel" onclick="cansel_6();">сбросить</button>
+					<div class="question">1.6.  На<span class="italic bold"> свече приказа </span>проверяем согласование с ADX и kST:
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> на <span class="bold">предыдущей</span> свече значение <span class="bold">АДХ ≤ 20 и понижается</span>;</li>
+							<li><span class="red">&#10003;</span> на текущей свече ЛБ <span class="bold">сонаправлены или сходятся</span>.</li>														
+						</ul>
+						Выполнены все условия?
+					</div>
+				</div>
+				
+				<div id="vopros6v" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_5_4A();">сбросить</button>
+					<div class="question">1.6. На<span class="italic bold"> свече приказа </span>проверяем согласование с ADX и kST.
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> на <span class="bold">предыдущей</span> свече значение <span class="bold">АДХ ≤ 20 и понижается</span>;</li>
+							<li><span class="red">&#10003;</span> на текущей свече ЛБ <span class="bold">сонаправлены или сходятся</span>.</li>														
+						</ul>
+						Выполнены все условия?
+					</div>
+				</div>
+				
+				<div id="vopros6ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_6A();">да</button>
+					<button class="bth-step" onclick="sled_vopr_7_1();">нет</button>
+				</div>
+				
+				<div id="vopros6A" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_6A();">сбросить</button>
+					<div class="question"> <p>На<span class="italic bold"> предыдущей свече </span>значение пунктира kST &#60; 20% ?</p>						 
+					</div>
+				</div>
+				
+				<div id="vopros6Aans" style="display:none;">
+					<button class="bth-step" onclick="otmena_prik_6A();">да</button>
+					<button class="bth-step" onclick="sled_vopr_Diap();">нет</button>
+				</div>
+				
+				<div id="otmena_prik_6A_no" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_6AA();">сбросить</button>
+					<p class="question"> Приказ отменяется.</p>
+				</div>
+				
+				<div id="voprosDiap" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_6AA();">сбросить</button>
+					<div class="question"> 
+						<ul class="no-disc italic">
+							<li>В графе «Дата ожидания» указываем: 
+								<ul class="disc">
+									<li>следующую дату, Диапазон с пункта <span class="bold"><a href="lec-sh-2.html#point4">4</a></span> по сигналу (…);</li>		
+									<li>следующую дату, расчетная свеча с пункта <span class="bold"><a href="lec-sh-2.html#point10">10</a></span>. Сигнал (…)</li>	
+								</ul>
+							</li>		
+							<li>В графе «Примечания» указываем: <span class="bold">приказ отложенный</span>;</li>	
+						</ul>
+					</div>
+				</div>
+				
+				<div id="vopros7_1" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_6A();">сбросить</button>
+					<div class="question">1.7.1. На свече <span class="bold underline">приказа</span> при открытии <span class="italic">короткой</span> позиции проверяем:
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> свеча приказа является <span class="bold">третьей</span> подряд <span class="bold">закрашенной</span> свечой;</li>		
+							<li><span class="red">&#10003;</span> тень <span class="bold">вниз</span> каждой свечи строго меньше размеров тела;</li>	
+							<li><span class="red">&#10003;</span> <span class="bold">Close</span> каждой свечи <span class="bold">строго ниже Low</span> предыдущей свечи;</li>	
+							<li><span class="red">&#10003;</span> <span class="bold">Open</span> каждой свечи <span class="bold">строго ниже Close</span> предыдущей свечи.</li>		
+						</ul>
+					Выполнены все условия?<br><br>
+						* <span class="italic">При добавлении позиции нажмите "нет" </span></div>
+				</div>
+				
+				<div id="vopros7_1ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_8();">да</button>
+					<button class="bth-step" onclick="sled_vopr_7_2();">нет</button>
+				</div>
+
+				<div id="vopros7_2" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_7_1();">сбросить</button>
+					<div class="question">1.7.2. На свече <span class="bold underline">приказа/решения</span> при открытии и добавлении <span class="italic">короткой</span> позиции проверяем:
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> текущая свеча - <span class="bold">закрашенная</span>;</li>	
+							<li><span class="red">&#10003;</span> первая слева от текущей: свеча - <span class="bold">закрашенная</span>;</li>	
+							<li><span class="red">&#10003;</span> одна из <span class="bold">закрашенных</span> свечей - лысая;</li>	
+							<li><span class="red">&#10003;</span> вторая слева от текущей свеча - <span class="blue">прозрачная</span>;</li>
+							<li><span class="red">&#10003;</span> третья слева от текущей свеча - <span class="blue">прозрачная</span>	;</li>
+							<li><span class="red">&#10003;</span> одна из <span class="blue">прозрачных</span> свечей - лысая;</li>	
+							<li><span class="red">&#10003;</span> ни одна из свечей не является крестом;</li>	
+							<li><span class="red">&#10003;</span> <span class="bold">Close</span> текущей свечи <span class="bold">строго ниже Low</span> третьей слева свечи.</li>	
+																				
+						</ul>
+					Выполнены все условия?</div>
+				</div>
+				
+				<div id="vopros7_2ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_9v_3();">да</button>
+					<button class="bth-step" onclick="sled_vopr_7_3();">нет</button>
+				</div>
+				
+				<div id="vopros7_3" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_7_2();">сбросить</button>
+					<div class="question">1.7.3. На свече <span class="bold underline">приказа/решения</span> при открытии и добавлении <span class="italic">короткой</span> позиции проверяем:
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> текущая свеча - <span class="bold">закрашенная</span>;</li>
+							<li><span class="red">&#10003;</span> текущая свеча - лысая;</li>	
+							<li><span class="red">&#10003;</span> первая слева от текущей свеча - <span class="blue">прозрачная</span>;</li>
+							<li><span class="red">&#10003;</span> вторая слева от текущей свеча - <span class="bold">закрашенная</span>;</li>
+							<li><span class="red">&#10003;</span> ни одна из свечей не является крестом;</li>	
+							<li><span class="red">&#10003;</span> <span class="bold">Close</span> текущей свечи <span class="bold">строго ниже Low</span> первой слева свечи;</li>
+							<li><span class="red">&#10003;</span> <span class="bold">Close</span> текущей свечи <span class="bold">строго ниже Low</span> второй слева свечи.</li>
+						</ul>	
+					Выполнены все условия?</div>
+				</div>
+				
+				<div id="vopros7_3ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_9v_4();">да</button>
+					<button class="bth-step" onclick="sled_vopr_7_4();">нет</button>
+				</div>
+
+				<div id="vopros7_4" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_7_3();">сбросить</button>
+					<div class="question">1.7.4. На свече <span class="bold underline">приказа/решения</span> при открытии и добавлении <span class="italic">короткой</span> позиции проверяем:
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> текущая свеча - <span class="bold">закрашенная</span>;</li>		
+							<li><span class="red">&#10003;</span> первая слева от текущей свеча - <span class="bold">закрашенная</span>;</li>	
+							<li><span class="red">&#10003;</span> одна из <span class="bold">закрашенных</span> свечей - лысая;</li>
+							<li><span class="red">&#10003;</span> вторая слева от текущей свеча - <span class="blue">прозрачная</span>	;</li>	
+							<li><span class="red">&#10003;</span> третья слева от текущей свеча - <span class="bold">закрашенная</span>;</li>	
+							<li><span class="red">&#10003;</span> ни одна из свечей не является крестом;</li>
+							<li><span class="red">&#10003;</span> <span class="bold">Close</span> текущей свечи <span class="bold">строго ниже Low</span> второй слева свечи;</li>		
+							<li><span class="red">&#10003;</span> <span class="bold">Close</span> текущей свечи <span class="bold">строго ниже Low</span> третьей слева свечи.</li>	
+						</ul>				
+						
+					Выполнены все условия?</div>
+				</div>
+				
+				<div id="vopros7_4ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_9v_5();">да</button>
+					<button class="bth-step" onclick="sled_vopr_7_5();">нет</button>
+				</div>
+
+				<div id="vopros7_5" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_7_4();">сбросить</button>
+					<div class="question">1.7.5. На свече <span class="bold">приказа/решения</span> и на <span class="bold">первой слева свече от свечи решения </span>при добавлении <span class="italic">короткой</span> позиции проверяем:
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> свеча приказа является второй подряд <span class="bold">закрашенной</span> свечой;</li>		
+							<li><span class="red">&#10003;</span> тень <span class="bold">вниз</span> каждой свечи строго меньше размеров тела;</li>	
+							<li><span class="red">&#10003;</span> <span class="bold">Close</span> свечи приказа <span class="bold">строго ниже Low</span> предыдущей свечи;</li>
+							<li><span class="red">&#10003;</span> <span class="bold">Open</span> свечи приказа <span class="bold red2">ниже или равен</span> CLOSE предыдущей свечи;</li>		
+							<li><span class="red">&#10003;</span> гистограмма <span class="bold">MACD</span> закрывается <span class="bold">ниже</span> белой сигнальной линии,</li>
+						</ul>									
+						
+					Выполнены все условия?<br><br>
+						* <span class="italic">При открытии позиции нажмите "нет" </span>
+					</div>
+				</div>
+				
+				<div id="vopros7_5ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_8v();">да</button>
+					<button class="bth-step" onclick="sled_vopr_10();">нет</button>
+				</div>
+				
+				<div id="vopros8" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_7_1();">сбросить</button>
+					<div class="question">1.8. Дополнительная проверка на свече <span class="bold underline">приказа/решения</span>:						
+						<ul class="no-disc">							
+							<li><span class="red">&#10022;</span> Либо  на свече <span class="bold">ADX>20 и повышается</span>;</li>
+							
+							<li><span class="red">&#10022;</span> Либо на свече ADX≤20 и: 
+								<ul class="no-disc">
+									<li><span class="red">&#10148;</span> либо на текущей свече <span class="bold">ADX повышается</span>;</li>
+									<li><span class="red">&#10148;</span> либо на предыдущей свече <span class="bold">ADX повышается</span>.</li>
+								</ul>
+							</li>
+						</ul>
+					Выполнено одно из условий?</div>
+				</div>
+				
+				<div id="vopros8v" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_8();">сбросить</button>
+					<div class="question">1.8. Дополнительная проверка на свече <span class="bold underline">приказа/решения</span>:
+						<ul class="no-disc">							
+							<li><span class="red">&#10022;</span> Либо  на свече <span class="bold">ADX>20 и повышается</span>;</li>
+							<li><span class="red">&#10022;</span> Либо на свече ADX≤20 и: 
+								<ul class="no-disc">
+									<li><span class="red">&#10148;</span> либо на текущей свече <span class="bold">ADX повышается</span>;</li>
+									<li><span class="red">&#10148;</span> либо на предыдущей свече <span class="bold">ADX повышается</span>.</li>
+								</ul>
+							</li>
+						</ul>
+					Выполнено одно из условий?</div>
+				</div>
+				
+				<div id="vopros8ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_9v_2();">да</button>
+					<button class="bth-step" onclick="sled_vopr_10v();">нет</button>
+				</div>
+			
+				<div id="vopros9v_1" style="display:none;">
+					<button class="bth-step-v">далее</button>					
+					<button class="bth-step-cansel" onclick="cansel_9v_1();">сбросить</button>
+					<p class="question"> <span class="italic">В графе «Дата ожидания» указываем: следующую дату, расчетная свеча с пункта <span class="bold"><a href="lec-sh-2.html#point10">10</a></span> по Сигналу (…).</span> </p>
+				</div>
+				
+				<div id="vopros9v_2" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_9v_2();">сбросить</button>
+					<p class="question"> <span class="italic">В графе «Дата ожидания» указываем: следующую дату, расчетная свеча с пункта <span class="bold"><a href="lec-sh-2.html#point10">10</a></span> по Сигналу (…).</span> </p>
+					
+				</div>
+				
+				<div id="vopros9v_3" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_7_2();">сбросить</button>
+					<p class="question">1.9. <span class="italic"><span class="underline">Для свечи приказа:</span> в графе «Дата ожидания» указываем следующую дату, расчетная свеча с пункта <span class="bold"><a href="lec-sh-2.html#point10">10</a></span> по Сигналу (…).</span></p>
+				</div> 
+				
+				<div id="vopros9v_4" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_7_3();">сбросить</button>
+					<p class="question">1.9. <span class="italic"><span class="underline">Для свечи приказа:</span> в графе «Дата ожидания» указываем следующую дату, расчетная свеча с пункта <span class="bold"><a href="lec-sh-2.html#point10">10</a></span> по Сигналу (…).</span></p>
+				</div>
+				
+				<div id="vopros9v_5" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_7_4();">сбросить</button>
+					<p class="question">1.9. <span class="italic"><span class="underline">Для свечи приказа:</span> в графе «Дата ожидания» указываем следующую дату, расчетная свеча с пункта <span class="bold"><a href="lec-sh-2.html#point10">10</a></span> по Сигналу (…).</span></p>
+				</div>
+				
+				<div id="vopros9ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_13();">далее</button>					
+				</div>
+				
+				<!--<div id="vopros10" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_8();">сбросить</button>9999999999999999999999
+					<div class="question"> <span class="underline">Проверка свечи приказа по линиям целей W:</span>
+						<ul class="no-disc">							
+							<li><span class="green">&#10003;</span> Если приказ слабый (на свече приказа НЕТ четырех подряд гистограмм MACD <span class="green">зеленого</span>	 цвета);</span></li>
+							<li><span class="green">&#10003;</span> Если свеча приказа <span class="bold">в движении</span>;</li> 
+							<li><span class="green">&#10003;</span> Если свеча приказа совпадает с <span class="bold">прокольной</span> или <span class="bold">одной из подтверждающих</span> свечей пробоя <span class="bold">вверх</span>.</li>
+						</ul>		
+						Выполнены все условия?
+					</div>
+				</div>-->
+				
+				<!--<div id="vopros10v" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_9v_2();">сбросить</button>
+					<div class="question"> <span class="underline">Проверка свечи приказа по линиям целей W:</span>
+						<ul class="no-disc">							
+							<li><span class="green">&#10003;</span> Если приказ слабый (на свече приказа НЕТ четырех подряд гистограмм MACD <span class="green">зеленого</span> цвета);</span></li>
+							<li><span class="green">&#10003;</span> Если свеча приказа <span class="bold">в движении</span>;</li> 
+							<li><span class="green">&#10003;</span> Если свеча приказа совпадает с <span class="bold">прокольной</span> или <span class="bold">одной из подтверждающих</span> свечей пробоя <span class="bold">вверх</span>.</li>
+						</ul>		
+						Выполнены все условия?
+					</div>
+				</div>-->
+				
+				<!--<div id="vopros10ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_10A();">да</button>
+					<button class="bth-step" onclick="sled_vopr_11();">нет</button>ууууууууууууууу
+				</div>-->
+
+				<div id="vopros10A" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_10A();">сбросить</button>ффффффффффффффффффффф
+					<div class="question"> В графе «Дата ожидания» указываем:<br> дату последней подтверждающей свечи пробоя, <span class="bold">процедура определения пробоя вниз</span> с пункта <span class="bold"><a href="#">6.1</a></span>.
+						
+					</div>
+				</div>
+				
+				<div id="vopros10Aans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_11v();">далее</button>					
+				</div>
+				
+				<div id="vopros11" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_10A();">сбросить</button>
+					<div class="question">1.11. <span class="bold underline">Свеча приказа/решения.</span><br><br>
+						Проверяем <span class="bold underline">все</span> свечи, начиная со свечи приказа на Si(2xSL):
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> Если свеча достигла <span class="bold">нижнюю ЛБ</span>;</li>
+							<li><span class="red">&#10003;</span> Если на свече достижения <span class="bold">ЛБ</span> сонаправлены с позицией или сходятся;</li>
+							<li><span class="red">&#10003;</span> Если свеча находится <span class="bold">в движении</span>;</li>
+							<li><span class="red">&#10003;</span> Если свеча закрывается со стороны позиции от <span class="bold">SMA(10)</span>;</li>
+							<li><span class="red">&#10003;</span> Если на свече достижения гистограмма <span class="bold">MACD подтверждает</span> позицию.</li>
+						</ul>	
+						Выполнены все условия?
+					</div>
+				</div>
+				
+				<div id="vopros11v" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>					
+					<button class="bth-step-cansel" onclick="cansel_11v2();">сбросить</button>
+					<div class="question">1.11. <span class="bold underline">Свеча приказа/решения.</span><br><br>
+						Проверяем <span class="bold underline">все</span> свечи, начиная со свечи приказа на Si(2xSL):
+						<ul class="no-disc">
+							<li><span class="red">&#10003;</span> Если свеча достигла <span class="bold">нижнюю ЛБ</span>;</li>
+							<li><span class="red">&#10003;</span> Если на свече достижения <span class="bold">ЛБ</span> сонаправлены с позицией или сходятся;</li>
+							<li><span class="red">&#10003;</span> Если свеча находится <span class="bold">в движении</span>;</li>
+							<li><span class="red">&#10003;</span> Если свеча закрывается со стороны позиции от <span class="bold">SMA(10)</span>;</li>
+							<li><span class="red">&#10003;</span> Если на свече достижения гистограмма <span class="bold">MACD подтверждает</span> позицию.</li>
+						</ul>	
+						Выполнены все условия?
+					</div>
+				</div>
+				
+				<div id="vopros11ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_11A();">да</button>
+					<button class="bth-step" onclick="sled_vopr_12();">нет</button>
+				</div>
+			
+				<div id="vopros12" style="display:none;">
+					<button class="bth-step">да</button>
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_12();">сбросить</button>
+					<div class="question"> 
+						<ul class="no-disc">
+							<li><span class="bold red2">Для свечи приказа:</span> 
+								<ul class="disc italic">
+									<li>в графе «Дата ожидания» указываем: следующая дата, расчетная свеча (⋆) с пункта <span class="bold"><a href="lec-sh-2.html#point10">10</a></span>.</span> </li>		
+								</ul>	
+							</li>		
+							<li><span class="bold red2">Для свечи приказа/решения:</span>
+								<ul class="disc italic">
+									<li>в графе «Сигналы» указываем: Определение движения и диапазона для свечи приказа по сигналу (…) с пункта <span class="bold"><a href="lec-sh-2.html#point2">2</a></span>. Сигнал обводим.</span></li>	
+								</ul>
+							</li>	
+						</ul>	
+							
+					</div>
+				</div>
+				
+				<div id="vopros11A" style="display:none;">
+					<button class="bth-step-v">да</button>
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_12();">сбросить</button>
+					<div class="question"> 
+						<ul class="no-disc">
+							<li><span class="bold red2">Для свечи приказа/решения:</span> 
+								<ul class="disc italic">
+									<li>в графе «Дата ожидания» указываем: следующую дату после Si(2xSL), Процедура диапазона по сигналу (…) с пункта <span class="bold"><a href="lec-sh-2.html#point4">4</a></span>. Сигнал (…) обводим.</li>		
+								</ul>	
+							</li>		
+							<li><span class="bold red2">Для свечи приказа:</span>
+								<ul class="disc italic">
+									<li>в графе «Дата ожидания» указываем: следующую дату, расчетная свеча с пункта <span class="bold"><a href="lec-sh-2.html#point10">10</a></span>.</li>		
+									<li>в графе «Примечания» указываем: <span class="bold">приказ отложенный</span>.</li>	
+								</ul>	
+							</li>	
+						</ul>	
+						
+					</div>
+				</div>	
+				
+				<div id="vopros13" style="display:none;">
+					<button class="bth-step-v">далее</button>					
+					<button class="bth-step-cansel" onclick="cansel_13();">сбросить</button>
+					<div class="question"> 
+						<p>1.13. На свече активирована (работает) заявка Take-profit (цели)?</p>
+					</div>
+				</div>
+				
+				<div id="vopros13ans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_13o();">да</button>
+					<button class="bth-step" onclick="sled_vopr_13A();">нет</button>
+				</div>
+				
+				<div id="vopros13o" style="display:none;">
+					<button class="bth-step-v">да</button>	
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_13o();">сбросить</button>
+					<div class="question"> 
+						<ul class="no-disc">
+							<li>Безотлагательные <span class="underline">приказы</span> для добавления позиции <span class="bold">выполняются</span>;</li>		
+							<li><span class="underline">Фактические решения</span> для отложенного добавление позиции <span class="bold">отменяются</span>.</li>	
+						</ul>
+					</div>
+				</div>
+				
+				<div id="vopros13A" style="display:none;">
+					<button class="bth-step">да</button>	
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_13o();">сбросить</button>
+					<div class="question"> 
+						<p>1.13. На свече работает SL𝛂 или SL<sub>GM</sub> ?</p>
+						
+					</div>
+				</div>
+				
+				<div id="vopros13Aans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_13Ao();">да</button>
+					<button class="bth-step" onclick="sled_vopr_13AA();">нет</button>
+				</div>
+				
+				<div id="vopros13Ao" style="display:none;">
+					<button class="bth-step-v">да</button>	
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_13Ao();">сбросить</button>
+					<div class="question"> 
+						<ul class="no-disc">
+							<li><span class="red">&#10022;</span> <span class="bold">Либо</span> свеча <span class="underline">приказа или решения</span> для <span class="bold">безотлагательного добавления</span> позиции совпадает со свечой <span class="bold underline">достижения</span>;</li>		
+							<li><span class="red">&#10022;</span> <span class="bold">Либо</span> есть <span class="underline">приказ</span> на <span class="bold">безотлагательное добавление</span> позиции;</li>
+							<li><span class="red">&#10022;</span> <span class="bold">Либо</span> Close свечи <span class="underline">приказа</span> <span class="bold">строго ниже</span> уровня жадности GМ или α;</li>
+							<li><span class="red">&#10022;</span> <span class="bold">Либо</span> <span class="red2">закрыты <span class="bold underline">все</span> заявки <span class="bold">Take-profit(ω)</span></span>.</li>	
+						</ul>
+						Выполнено одно из условий?
+					</div>
+				</div>
+				
+				<div id="vopros13Aoans" style="display:none;">
+					<button class="bth-step" onclick="sled_vopr_13Aoo();">да</button>
+					<button class="bth-step" onclick="otmena_prik_13Ao();">нет</button>
+				</div>
+				
+				<div id="vopros13Aoo" style="display:none;">
+					<button class="bth-step-v">да</button>	
+					<button class="bth-step" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_13Aoo();">сбросить</button>
+					<div class="question"> 
+						<ul class="no-disc red2">
+							<li><span class="red">&#10003;</span> Позиция добавляется;</li>		
+							<li><span class="red">&#10003;</span> В качестве <span class="bold">SL</span> для этого добавления используем <span class="bold">SL</span><sub>GМ</sub> или <span class="bold">SL</span>α; </li>
+							<li><span class="red">&#10003;</span> В заявке Take-profit(<span class="bold">ω</span>) используем отступ <span class="bold">%ω</span> нижестоящего графика;</li>	
+							<li><span class="red">&#10003;</span> Корректировку заявки Take-profit(<span class="bold">ω</span>) для этого добавления при повторной активации текущего уровня <span class="bold">α не производим</span>.</li>
+						</ul>						
+					</div>
+				</div>
+				
+				<div id="otmena_prik13Ao" style="display:none;">
+					<button class="bth-step">да</button>	
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_13Aoo();">сбросить</button>
+					<div class="question"> 						
+						<p>Приказы и решения на добавление позиции <span class="bold">отменяются</span>.</p>
+					</div>
+				</div>
+				
+				<div id="vopros13AA" style="display:none;">
+					<button class="bth-step">да</button>	
+					<button class="bth-step-v" >нет</button>
+					<button class="bth-step-cansel" onclick="cansel_13Ao();">сбросить</button>
+					<div class="question"> 
+						<p>1.13. <span class="bold red2">Для открытия/добавления короткой позиции:</span> <br>
+						После проверки по пунктам <span class="bold"><a href="lec-sh-2.html#point17">17</a> - <a href="lec-sh-2.html#point19">19</a></span>, <span class="italic">в графе «Дата ожидания» указываем: следующую дату, продаем акции по параметрам расчетной свечи.</span></li>
+						</p>
+					</div>
+				</div>
+				
+				
+				<script>
+					function sled_vopr_2(){
+		
+						if(document.getElementById('vopros1').style.display == "block"){
+							document.getElementById('vopros2').style.display = "block";
+							document.getElementById('vopros2ans').style.display = "block";
+							document.getElementById('vopros1ans').style.display = "none";
+						}
+					}
+					function otmena_prik_1(){
+		
+						if(document.getElementById('vopros1').style.display == "block"){
+							document.getElementById('otmena_prik_1_no').style.display = "block";
+							document.getElementById('vopros1ans').style.display = "none";
+						}
+					}
+					function cansel_1(){
+						if(document.getElementById('vopros1').style.display == "block"){
+							document.getElementById('vopros2').style.display = "none";
+							document.getElementById('otmena_prik_1_no').style.display = "none";
+							document.getElementById('vopros2ans').style.display = "none";
+							document.getElementById('vopros1ans').style.display = "block";
+						}
+					}
+					function sled_vopr_3(){
+						if(document.getElementById('vopros2').style.display == "block"){
+							document.getElementById('vopros3').style.display = "block";
+							document.getElementById('vopros3ans').style.display = "block";
+							document.getElementById('vopros2ans').style.display = "none";
+						}
+					}
+					function otmena_prik_2(){
+						if(document.getElementById('vopros2').style.display == "block"){
+							document.getElementById('otmena_prik_2_no').style.display = "block";
+							document.getElementById('vopros2ans').style.display = "none";
+						}
+					}
+					function cansel_2(){
+						if(document.getElementById('vopros2').style.display == "block"){
+							document.getElementById('vopros3').style.display = "none";
+							document.getElementById('otmena_prik_2_no').style.display = "none";
+							document.getElementById('vopros3ans').style.display = "none";
+							document.getElementById('vopros2ans').style.display = "block";
+						}
+					}
+					function sled_vopr_4(){
+						if(document.getElementById('vopros3').style.display == "block"){
+							document.getElementById('vopros4').style.display = "block";
+							document.getElementById('vopros4ans').style.display = "block";
+							document.getElementById('vopros3ans').style.display = "none";
+						}
+					}
+					function otmena_prik_3(){
+						if(document.getElementById('vopros3').style.display == "block"){
+							document.getElementById('otmena_prik_3_no').style.display = "block";
+							document.getElementById('vopros3ans').style.display = "none";
+						}
+					}
+					function cansel_3(){
+						if(document.getElementById('vopros3').style.display == "block"){
+							document.getElementById('vopros4').style.display = "none";
+							document.getElementById('otmena_prik_3_no').style.display = "none";
+							document.getElementById('vopros4ans').style.display = "none";
+							document.getElementById('vopros3ans').style.display = "block";
+						}
+					}
+					
+					function sled_vopr_5(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5').style.display = "block";
+							document.getElementById('vopros5ans').style.display = "block";
+							document.getElementById('vopros4ans').style.display = "none";
+						}
+					}
+					function cansel_4(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5').style.display = "none";
+							
+							document.getElementById('vopros5ans').style.display = "none";
+							document.getElementById('vopros4ans').style.display = "block";
+						}
+					}
+					function sled_vopr_4A(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros4A').style.display = "block";
+							document.getElementById('vopros4Aans').style.display = "block";
+							document.getElementById('vopros4ans').style.display = "none";
+						}
+					}
+					function cansel_4A(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros4A').style.display = "none";
+							
+							document.getElementById('vopros4Aans').style.display = "none";
+							document.getElementById('vopros4ans').style.display = "block";
+						}
+					}
+					function otmena_prik_4A(){
+		
+						if(document.getElementById('vopros4A').style.display == "block"){
+							document.getElementById('otmena_prik_4A_no').style.display = "block";
+							document.getElementById('vopros4Aans').style.display = "none";
+						}
+					}
+					function sled_vopr_5v(){
+		
+						if(document.getElementById('vopros4A').style.display == "block"){
+							document.getElementById('vopros5v').style.display = "block";
+							document.getElementById('vopros5vans').style.display = "block";
+							document.getElementById('vopros4Aans').style.display = "none";
+						}
+					}
+					function cansel_4AA(){
+						if(document.getElementById('vopros4A').style.display == "block"){
+							document.getElementById('vopros5v').style.display = "none";						
+							document.getElementById('vopros5vans').style.display = "none";
+							document.getElementById('vopros4Aans').style.display = "block";
+							document.getElementById('otmena_prik_4A_no').style.display = "none";
+						}
+					}
+					function sled_vopr_5_3(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_3').style.display = "block";
+							document.getElementById('vopros5_3ans').style.display = "block";
+							document.getElementById('vopros5ans').style.display = "none";
+							document.getElementById('vopros5vans').style.display = "none";
+						}
+					}
+					function cansel_5_3(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_3').style.display = "none";						
+							document.getElementById('vopros5_3ans').style.display = "none";
+							document.getElementById('vopros5vans').style.display = "block";
+							
+						}
+					}
+					function sled_vopr_5_1(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_1').style.display = "block";
+							document.getElementById('vopros5_1ans').style.display = "block";
+							document.getElementById('vopros5ans').style.display = "none";
+							document.getElementById('vopros5vans').style.display = "none";
+						}
+					}
+					function cansel_5(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_1').style.display = "none";
+							
+							document.getElementById('vopros5_1ans').style.display = "none";
+							document.getElementById('vopros5vans').style.display = "block";
+						}
+					}
+					function sled_vopr_5_1A(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_1A').style.display = "block";
+							document.getElementById('vopros5_1Aans').style.display = "block";
+							document.getElementById('vopros5_1ans').style.display = "none";							
+						}
+					}
+					function sled_vopr_5_1AA(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_1AA').style.display = "block";
+							document.getElementById('vopros5_1AAans').style.display = "block";
+							document.getElementById('vopros5_1ans').style.display = "none";							
+						}
+					}
+					function otmena_prik_5_1A(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('otmena_prik_5_1A_no').style.display = "block";
+							document.getElementById('vopros5_1Aans').style.display = "none";
+						}
+					}
+					function sled_vopr_5_1AAA(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_1AAA').style.display = "block";
+							document.getElementById('vopros5_1AAans').style.display = "block";
+							document.getElementById('vopros5_1Aans').style.display = "none";							
+						}
+					}
+					function cansel_5_1AA(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_1AA').style.display = "none";
+							document.getElementById('vopros5_1AAans').style.display = "none";
+							document.getElementById('vopros5_1A').style.display = "none";
+							document.getElementById('vopros5_1Aans').style.display = "none";
+							document.getElementById('vopros5_1ans').style.display = "block";
+						}
+					}
+					function cansel_5_1A(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('otmena_prik_5_1A_no').style.display = "none";
+							document.getElementById('vopros5_1AAA').style.display = "none";
+							document.getElementById('vopros5_1AAans').style.display = "none";
+							
+							document.getElementById('vopros5_1Aans').style.display = "block";						
+						}
+					}
+					function otmena_prik_5_3(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('otmena_prik_5_3_no').style.display = "block";
+							document.getElementById('vopros5_3ans').style.display = "none";
+						}
+					}
+					function sled_vopr_5_4(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_4').style.display = "block";
+							document.getElementById('vopros5_4ans').style.display = "block";
+							document.getElementById('vopros5_3ans').style.display = "none";							
+						}
+					}
+					function sled_vopr_5_4A(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_4A').style.display = "block";
+							document.getElementById('vopros5_4Aans').style.display = "block";
+							document.getElementById('vopros5_4ans').style.display = "none";							
+						}
+					}
+					function cansel_5_4(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_4').style.display = "none";
+							document.getElementById('vopros5_4ans').style.display = "none";
+							document.getElementById('otmena_prik_5_3_no').style.display = "none";
+							document.getElementById('vopros5_3ans').style.display = "block";
+						}
+					}
+					function cansel_5_4A(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros5_4A').style.display = "none";
+							document.getElementById('vopros5_4Aans').style.display = "none";
+							document.getElementById('vopros6v').style.display = "none";
+							document.getElementById('vopros6ans').style.display = "none";
+							
+							document.getElementById('vopros5_4ans').style.display = "block";
+						}
+					}
+					function sled_vopr_6(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros6').style.display = "block";
+							document.getElementById('vopros6ans').style.display = "block";
+							document.getElementById('vopros5_1AAans').style.display = "none";
+						}
+					}
+					function cansel_6(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros6').style.display = "none";
+							document.getElementById('vopros6ans').style.display = "none";
+							document.getElementById('vopros5_1AAans').style.display = "block";
+						}
+					}
+					function sled_vopr_6v(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros6v').style.display = "block";
+							document.getElementById('vopros6ans').style.display = "block";
+							document.getElementById('vopros5_4ans').style.display = "none";
+						}
+					}
+					function sled_vopr_6A(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros6A').style.display = "block";
+							document.getElementById('vopros6Aans').style.display = "block";
+							document.getElementById('vopros6ans').style.display = "none";
+						}
+					}
+					function cansel_6A(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros6A').style.display = "none";
+							document.getElementById('vopros6Aans').style.display = "none";
+							document.getElementById('vopros7_1').style.display = "none";
+							document.getElementById('vopros7_1ans').style.display = "none";							
+							
+							document.getElementById('vopros6ans').style.display = "block";
+						}
+					}
+					function otmena_prik_6A(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('otmena_prik_6A_no').style.display = "block";
+							document.getElementById('vopros6Aans').style.display = "none";
+						}
+					}
+					function sled_vopr_Diap(){
+		
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('voprosDiap').style.display = "block";
+							document.getElementById('vopros6Aans').style.display = "none";
+						}
+					}
+					function cansel_6AA(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('otmena_prik_6A_no').style.display = "none";
+							document.getElementById('voprosDiap').style.display = "none";
+							document.getElementById('vopros6Aans').style.display = "block";
+						}
+					}
+					function sled_vopr_7_1(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros7_1').style.display = "block";
+							document.getElementById('vopros7_1ans').style.display = "block";
+							document.getElementById('vopros6ans').style.display = "none";
+						}
+					}
+					function sled_vopr_7_2(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros7_2').style.display = "block";
+							document.getElementById('vopros7_2ans').style.display = "block";
+							document.getElementById('vopros7_1ans').style.display = "none";
+						}
+					}
+					function cansel_7_1(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros7_2').style.display = "none";
+							document.getElementById('vopros7_2ans').style.display = "none";
+							document.getElementById('vopros8').style.display = "none";
+							document.getElementById('vopros8ans').style.display = "none";
+							document.getElementById('vopros7_1ans').style.display = "block";
+						}
+					}
+					function sled_vopr_7_3(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros7_3').style.display = "block";
+							document.getElementById('vopros7_3ans').style.display = "block";
+							document.getElementById('vopros7_2ans').style.display = "none";
+						}
+					}
+					function cansel_7_2(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros7_3').style.display = "none";
+							document.getElementById('vopros7_3ans').style.display = "none";
+							document.getElementById('vopros7_2ans').style.display = "block";
+							
+							document.getElementById('vopros9v_3').style.display = "none";
+							document.getElementById('vopros9ans').style.display = "none";
+						}
+					}
+					function sled_vopr_7_4(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros7_4').style.display = "block";
+							document.getElementById('vopros7_4ans').style.display = "block";
+							document.getElementById('vopros7_3ans').style.display = "none";
+						}
+					}
+					function cansel_7_3(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros7_4').style.display = "none";
+							document.getElementById('vopros7_4ans').style.display = "none";
+							document.getElementById('vopros7_3ans').style.display = "block";
+							
+							document.getElementById('vopros9v_4').style.display = "none";
+							document.getElementById('vopros9ans').style.display = "none";
+							
+						}
+					}
+					function sled_vopr_7_5(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros7_5').style.display = "block";
+							document.getElementById('vopros7_5ans').style.display = "block";
+							document.getElementById('vopros7_4ans').style.display = "none";
+						}
+					}
+					function cansel_7_4(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros7_5').style.display = "none";
+							document.getElementById('vopros7_5ans').style.display = "none";
+							document.getElementById('vopros7_4ans').style.display = "block";
+							document.getElementById('vopros9v_5').style.display = "none";
+							document.getElementById('vopros9ans').style.display = "none";
+							
+						}
+					}
+					function sled_vopr_8(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros8').style.display = "block";
+							document.getElementById('vopros8ans').style.display = "block";							
+							document.getElementById('vopros7_1ans').style.display = "none";
+						}
+					}
+					function sled_vopr_8v(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros8v').style.display = "block";
+							document.getElementById('vopros8ans').style.display = "block";
+							document.getElementById('vopros7_5ans').style.display = "none";
+							
+						}
+					}
+					function cansel_8(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros8v').style.display = "none";
+							document.getElementById('vopros8ans').style.display = "none";
+							
+							
+							document.getElementById('vopros7_5ans').style.display = "block";
+						}
+					}
+					function sled_vopr_9v_1(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros9v_1').style.display = "block";
+							document.getElementById('vopros9ans').style.display = "block";													
+							
+							document.getElementById('vopros5_4Aans').style.display = "none";
+						}
+					}
+					function cansel_9v_1(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros9v_1').style.display = "none";
+							document.getElementById('vopros9ans').style.display = "none";
+							
+							document.getElementById('vopros5_4Aans').style.display = "block";
+						}
+					}					
+					function sled_vopr_9v_2(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros9v_2').style.display = "block";
+							document.getElementById('vopros9ans').style.display = "block";
+													
+							document.getElementById('vopros8ans').style.display = "none";							
+						}
+					}
+					function cansel_9v_2(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros9v_2').style.display = "none";
+							document.getElementById('vopros9ans').style.display = "none";
+							
+							document.getElementById('vopros8ans').style.display = "block";
+							vopros8ans
+						}
+					}
+					function sled_vopr_9v_3(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros9v_3').style.display = "block";
+							document.getElementById('vopros9ans').style.display = "block";
+													
+							document.getElementById('vopros7_2ans').style.display = "none";							
+						}
+					}
+					function sled_vopr_9v_4(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros9v_4').style.display = "block";
+							document.getElementById('vopros9ans').style.display = "block";													
+							document.getElementById('vopros7_3ans').style.display = "none";							
+						}
+					}
+					
+					function sled_vopr_9v_5(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros9v_5').style.display = "block";
+							document.getElementById('vopros9ans').style.display = "block";													
+							document.getElementById('vopros7_4ans').style.display = "none";							
+						}
+					}								
+					function sled_vopr_10(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros11v').style.display = "block";
+							document.getElementById('vopros11ans').style.display = "block";
+													
+							document.getElementById('vopros7_5ans').style.display = "none";							
+						}
+					}
+					function sled_vopr_10v(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros11').style.display = "block";
+							document.getElementById('vopros11ans').style.display = "block";
+													
+							document.getElementById('vopros8ans').style.display = "none";							
+						}
+					}
+					function sled_vopr_10A(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros10A').style.display = "block";
+							document.getElementById('vopros10Aans').style.display = "block";
+													
+							document.getElementById('vopros10ans').style.display = "none";							
+						}
+					}
+					function cansel_10A(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros10A').style.display = "none";
+							document.getElementById('vopros10Aans').style.display = "none";
+							document.getElementById('vopros11').style.display = "none";
+							document.getElementById('vopros11ans').style.display = "none";							
+							document.getElementById('vopros8ans').style.display = "block";							
+						}
+					}
+					function sled_vopr_11(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros11').style.display = "block";
+							document.getElementById('vopros11ans').style.display = "block";													
+							document.getElementById('vopros10ans').style.display = "none";							
+						}
+					}
+					function sled_vopr_11v(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros11v').style.display = "block";
+							document.getElementById('vopros11ans').style.display = "block";													
+							document.getElementById('vopros10Aans').style.display = "none";							
+						}
+					}
+					function cansel_11v(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros11v').style.display = "none";
+							document.getElementById('vopros11ans').style.display = "none";													
+							document.getElementById('vopros10Aans').style.display = "block";							
+						}
+					}
+					function cansel_11v2(){
+						if(document.getElementById('vopros4').style.display == "block"){
+						document.getElementById('vopros11v').style.display = "none";
+						document.getElementById('vopros11ans').style.display = "none";	
+						document.getElementById('vopros7_5ans').style.display = "block";
+						}					
+					}
+					function sled_vopr_12(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros12').style.display = "block";
+																			
+							document.getElementById('vopros11ans').style.display = "none";							
+						}
+					}
+					function cansel_12(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros12').style.display = "none";
+							document.getElementById('vopros11A').style.display = "none";												
+							document.getElementById('vopros11ans').style.display = "block";							
+						}
+					}
+					function sled_vopr_11A(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros11A').style.display = "block";
+																			
+							document.getElementById('vopros11ans').style.display = "none";							
+						}
+					}
+					function sled_vopr_13(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros13').style.display = "block";
+							document.getElementById('vopros13ans').style.display = "block";
+							document.getElementById('vopros9ans').style.display = "none";	
+						}
+					}
+					function cansel_13(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros13').style.display = "none";
+							document.getElementById('vopros13ans').style.display = "none";												
+							document.getElementById('vopros9ans').style.display = "block";							
+						}
+					}
+					function sled_vopr_13o(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros13o').style.display = "block";
+							
+							document.getElementById('vopros13ans').style.display = "none";	
+						}
+					}
+					function cansel_13o(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros13o').style.display = "none";
+							document.getElementById('vopros13A').style.display = "none";
+							document.getElementById('vopros13Aans').style.display = "none";												
+							document.getElementById('vopros13ans').style.display = "block";							
+						}
+					}
+					function sled_vopr_13A(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros13A').style.display = "block";
+							document.getElementById('vopros13Aans').style.display = "block";
+							document.getElementById('vopros13ans').style.display = "none";	
+						}
+					}
+					function sled_vopr_13Ao(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros13Ao').style.display = "block";
+							document.getElementById('vopros13Aoans').style.display = "block";
+							document.getElementById('vopros13Aans').style.display = "none";	
+						}
+					}
+					function cansel_13Ao(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros13Ao').style.display = "none";
+							document.getElementById('vopros13Aoans').style.display = "none";
+							document.getElementById('vopros13AA').style.display = "none";											
+							document.getElementById('vopros13Aans').style.display = "block";							
+						}
+					}
+					function sled_vopr_13Aoo(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros13Aoo').style.display = "block";
+							
+							document.getElementById('vopros13Aoans').style.display = "none";	
+						}
+					}
+					function cansel_13Aoo(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros13Aoo').style.display = "none";
+							document.getElementById('otmena_prik13Ao').style.display = "none";																		
+							document.getElementById('vopros13Aoans').style.display = "block";							
+						}
+					}
+					function otmena_prik_13Ao(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('otmena_prik13Ao').style.display = "block";
+							
+							document.getElementById('vopros13Aoans').style.display = "none";	
+						}
+					}
+					function sled_vopr_13AA(){
+						if(document.getElementById('vopros4').style.display == "block"){
+							document.getElementById('vopros13AA').style.display = "block";
+							
+							document.getElementById('vopros13Aans').style.display = "none";	
+						}
+					}
+					
+				</script>
+				
+	
+
+			
+				
+			</div>
+            <div>
+                <div class="sidebar"> <!--боковое меню-->
+                    <label id="rascetKol_vo"  class="rascet kol-vo" for="modal-capital">Расчет позиции</label><!-- Кнопка активации модального окна-->
+                    <label id="rascetOmega" class="rascet omega" for="modal-omega">Расчет омега</label><!-- Кнопка активации модального окна-->
+                    <label id="tabPersent" class="tab-persent" for="tab-persent">%</label><!--Кнопка активации модального окна-->
+                    <label id="rascetRasmah" class="rascet rasmah" for="modal-rasmah">Расчет размахов</label><!-- Кнопка активации модального окна-->
+                                
+                    <div class="poshag p-1" id="poshag-instr">Пошаговая инструкция</div>
+                    <div class="poshag-box">
+                        
+                        <div class="poshag p-2"><a href="trade-st-1.html">Открытие позиции (Long)</a></div>
+                        <div class="poshag p-3"><a href="trade-st-2.html">Открытие позиции (Short)</a></div>
+                        			
+                        <div class="poshag p-4"><a href="trade-st-3.html">Движение/диапазон</a></div>
+                        <div class="poshag p-6"><a href="trade-st-6.html">Свечные фигуры</a></div>
+                    </div>
+                </div>
+                <div class="sidebar" id="sidebarMobil" class="hidden"> <!--боковое меню-->
+                    <label id="rascetKol_voMobil"  class="rascet kol-vo" for="modal-capital">Расчет позиции</label><!-- Кнопка активации модального окна-->
+                    <label id="rascetOmegaMobil" class="rascet omega" for="modal-omega">Расчет омега</label><!-- Кнопка активации модального окна-->
+                    
+                    <label id="rascetRasmahMobil" class="rascet rasmah" for="modal-rasmah">Расчет размахов</label><!-- Кнопка активации модального окна-->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Модальное окно КАПИТАЛ-->
+		<div class="modal" id="rascetCapitalModal" style="display: none;">
+            <div class="modal-wrap" >
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <h2>Расчет разрешенного капитала:</h2>
+                        <label class="btn-close" id="rascetCapitalBtnClose" for="modal-capital" aria-hidden="true">×</label>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                          <label>Размер депозита:
+                              <input id="D" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <label>Процент риска:
+                              <input id="persentRisk" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <label>Опорный фрактал:
+                              <input id="fractal" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <label>Open расчетной свечи: 	
+                              <input id="openK" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <input type="button" value="Рассчитать" class="btn-count" onclick="addition1();"><br>
+                      </form>
+                        <!--расчет через форму html для js       http://blog.harrix.org/article/3286-->
+                        
+                    </div>
+                    <div class="modal-footer">				
+                        <div id="result" class="result-show"></div>
+                        <div id="result2" class="result-show"></div>	
+                    </div>
+                </div>
+
+            </div>
+        </div>                       
+                
+        <!-- Модальное окно omega-->
+		<div class="modal" id="rascetOmegaModal" style="display: none;">
+           <div class="modal-wrap" >
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <h2>Расчет Omega:</h2>
+                        <label class="btn-close" id="rascetOmegaBtnClose" for="modal-omega" aria-hidden="true">×</label>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label>Процент SL:
+                                <input id="persentSL" type="text" class="pole-vvoda"><br><!--value="5.04"-->
+                            </label>
+                            <label>Опорный фрактал:
+                                <input id="fractalOM" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <label>Open расчетной свечи: 	
+                                <input id="openOM" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <input type="button" value="Рассчитать" class="btn-count" onclick="addition2();"><br>
+                        </form>
+                    </div>
+                    <div class="modal-footer">				
+                      <div id="result3" class="result-show"></div>						
+                    </div>
+                </div>
+            </div>
+        </div>   
+           
+<!-- Модальное окно таблицы %-->
+        
+		<div class="modal" id="tabPersentModal" style="display:none ;">
+            <div class="modal-wrap" >
+                <div class="modal-dialog-persent" >
+                    <div class="modal-header">
+                        <h2>Проценты отступов:</h2>
+                        <label class="btn-close" id="tabPersentBtnClose" for="tab-persent" aria-hidden="true" >×</label>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-in-modal-12">
+                            <table class="table-in-modal-1">
+                                <caption>Таблица рисков.</caption>
+                                <tr>
+                                    <th>Тип графика</th>
+                                    <th>Процент риска</th>
+                                </tr>
+                                <tr>
+                                    <td>W</td>		<td>20%</td>								
+                                </tr>
+                                <tr>
+                                    <td>D</td>		<td>10%</td>								
+                                </tr>
+                                <tr>
+                                    <td>M60</td>	<td>5%</td>								
+                                </tr>
+                                <tr>
+                                    <td>M10</td>	<td>3%</td>								
+                                </tr>
+                                <tr>
+                                    <td>M1</td>		<td>2%</td>								
+                                </tr>							
+                            </table>
+                            <table class="table-in-modal-2">
+                                <caption>Таблица отступов.</caption>
+                                <tr>
+                                    <th>Тип графика</th>	<th>% SL</th>	<th>% омега</th>
+                                </tr>
+                                <tr>
+                                    <td>W</td>	<td>13,08</td>		<td>3,12 </td>
+                                </tr>
+                                <tr>
+                                    <td>D</td>	<td>6,9 </td>	<td>1,86 </td>
+                                </tr>
+                                <tr>
+                                    <td>M60</td>	<td>3,78 </td>	<td>0,98 </td>
+                                </tr>
+                                <tr>
+                                    <td>M10</td>	<td>1,92 </td>	<td>0,54 </td>
+                                </tr>
+                                <tr>
+                                    <td>M1</td>		<td>1,21 </td>	<td>0,37 </td>
+                                </tr>							
+                            </table>	
+                        </div>    
+                        <table class="table-in-modal-3">
+                            <caption>Таблица определения закрытия на пунктире +/- % от значения SMA10 и LB+.</caption>
+                            <tr>
+                                <th>W</th>	<th>D</th>	<th>M60</th>	<th>M10</th>	<th>M1</th>
+                            </tr>
+                            <tr>
+                                <td>0,2%</td>	<td>0,1%</td>	<td>0,05%</td>	<td>0,03%</td>	<td>0,01%</td>
+                            </tr>	
+                        </table>	
+                    </div>		
+                </div>
+            </div>
+        </div>	
+
+        <!-- Модальное окно РАЗМАХИ-->
+		<div class="modal" id="rascetRasmahModal" style="display: none;">
+            <div class="modal-wrap" >
+                <div class="modal-dialog rasmah">
+                    <div class="modal-header">
+                        <h2>Расчет целей движения по размахам:</h2>
+                            <label class="btn-close" id="rascetRasmahBtnClose" for="modal-rasmah" aria-hidden="true">×</label> 
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label>Уровень +0:
+                                <input id="level_0up" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <label>Уровень -0:
+                                <input id="level_0d" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <label>Импульс*:
+                                <input id="impuls" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <p class="rasmah-snoska">* - если импульс равен 0, введите значение соответствующего уровня +0 или -0.</p>
+                            <input type="button" value="Рассчитать" class="btn-count" onclick="addition3();"><br>
+                        </form>                        
+                    </div>
+                    <div class="modal-footer">
+                        <table>
+                            <tr>
+                                <td><span id="result_level_1up" class="result-show-rasmah"></span></td>						
+                                <td><span id="result_level_1d" class="result-show-rasmah"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="result_level_2up" class="result-show-rasmah"></span></td>						
+                                <td><span id="result_level_2d" class="result-show-rasmah"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="result_level_3up" class="result-show-rasmah"></span></td>						
+                                <td><span id="result_level_3d" class="result-show-rasmah"></span></td>
+                            </tr>
+                        </table>
+                            
+                    </div>
+                </div>
+            </div>             
+        </div>    
+             
+         
+        <!--кнопка возврата вверх страницы &#11014;-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+            
+        
+
+
+        <script src="script.js"></script>
+    </body>
+    <footer>
+        <div class="footer">
+            &#169; А. М. Савченко, 2022	
+        </div>
+        <div class="contact-menu">
+            <div>
+                <a href="mailto:mari.stek@list.ru" class="icon icon-mail">
+                        <span class="hidden1">Написать &#9993;	</span>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="icon icon-phone">
+                        <span class="hidden1">Позвонить &#9743;	</span>
+                </a>
+            </div>
+       </div>
+        
+    </footer>
+    
+</html>

@@ -1,0 +1,684 @@
+<!DOCTYPE html>        <!--пошаговая свчные фигуры-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+        <title>Проект</title>
+    </head>
+    
+    <body>      
+        <div class="header-box-1">
+            <div class="header-box-left">            
+                    <p class="header2">Управление позицией.</br> Управление капиталом.</p>  
+            </div>
+            <div class="header-box-right">
+                <div class="header-box-right1">
+                    <p>Автор:</br> Савченко</br> Алексей Михайлович </p>
+                </div>
+                <div class="header-box-right2 ">
+                    <p>Автор: Савченко Алексей Михайлович </p>
+                </div>
+                <div class="pic-head"><img src="head11.png"></div>
+            </div>
+        </div>
+        <div class="header-box-2">
+            
+            <button class="btn-mobil-menu-close" class="hidden"><a href="modal-menu.html">&#9776;</a></button>
+            <label class="menu-func" id="btnsRascet" for="menu-func" class="hidden">&fnof;(x)</label>
+            <label class="tab-persent" id="tabPersentMobil" for="tab-persent" class="hidden">%</label><!-- Кнопка активации модального окна-->
+            
+            <ul class="main-menu">
+                <li id="menu-mobil-1"><a href="#">Начало тренда</a>
+                    <ul class="sub-menu sb1">
+                        <li><a href="trade-l-1-1.html">Растущий фрактальный тренд</a></li>
+                        <li><a href="trade-sh-1-1.html">Падающий фрактальный тренд</a></li>
+                        <li><a href="trade-l-1-3.html">Сигнал МАСД на покупку</a></li>
+                        <li><a href="trade-sh-1-3.html">Сигнал МАСД на продажу</a></li>
+                        <li><a href="trade-l-1-2.html">Сигнал стохастика на покупку</a></li>
+                        <li><a href="trade-sh-1-2.html">Сигнал стохастика на продажу</a></li>
+                        <li><a href="trade-l-1-4.html">Сигнал "бамбука" на покупку</a></li>
+                        <li><a href="trade-sh-1-4.html">Сигнал "бамбука" на продажу</a></li>
+                        <li><a href="trade-l-1-5.html">Процедура определения пробоя вверх</a></li>
+                        <li><a href="trade-sh-1-5.html">Процедура определения пробоя вниз</a></li>
+                        <li><a href="trade-1-6.html">Блок-схемы работы по алгоритму</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Процедура открытия позиции</a>
+                    <ul class="sub-menu sb2">
+                        <li><a href="trade-l-2.html">Процедура открытия длинной позиции</a></li>
+                        <li><a href="trade-sh-2.html">Процедура открытия короткой позиции</a></li>
+                    </ul>
+                </li>	
+                <li><a href="#">Остановка тренда</a>
+                    <ul class="sub-menu sb3">
+                        <li><a href="trade-l-3-1.html">Признаки остановки растущего тренда</a></li>
+                        <li><a href="trade-sh-3-1.html">Признаки остановки падающего тренда</a></li>
+                        
+                        <li><a href="trade-l-3-2.html">Процедура расчета стандартного SL для long</a></li>
+                        <li><a href="trade-sh-3-2.html">Процедура расчета стандартного SL для short</a></li>
+                        <li><a href="trade-l-3-3.html">Построение отрезка дивергенции</a></li>
+                        <li><a href="trade-sh-3-3.html">Построение отрезка конвергенции</a></li>
+                    </ul>
+                </li>				
+                <li><a href="#">Свечные фигуры</a>
+                    <ul class="sub-menu sb4">
+                        <li><a href="trade-4-1.html">Типы свечных фигур</a></li>
+                        <li><a href="trade-l-4-2.html">Процедура определения свечной фигуры для long</a></li>
+                        <li><a href="trade-sh-4-2.html">Процедура определения свечной фигуры для short</a></li>
+                    </ul>
+                </li>	
+                <li><a href="#">ЛБ</a>
+                    <ul class="sub-menu sb5">
+                        <li><a href="trade-5-1.html">Линии Боллинджера (ЛБ) расходятся</a></li>
+                        <li><a href="trade-5-2.html">ЛБ1+: Двойной стоп-лосс (2хSL)</a></li>
+                        <li><a href="trade-5-3.html">ЛБ1+: Разрыв</a></li>
+                        <li><a href="trade-5-4.html">Изменение направления движения цены в ЛБ</a></li>
+                        <li><a href="trade-5-5.html">ЛБ3: Процедура Take-profit цели</a></li>
+                        <li><a href="trade-5-6.html">ЛБ4+: Процедура Два последних</a></li>
+                        <li><a href="trade-5-7.html">Процедура для удержания позиции в ЛБ4+</a></li>
+                        <li><a href="trade-5-8.html">«Ересь»</a></li>
+                        <li><a href="trade-5-9.html">ЛБ направлены в противоположную сторону к позиции</a></li>						
+                        
+                    </ul>
+                </li>
+                <li><a href="#">Фиксация прибыли</a>
+                    <ul class="sub-menu sb7">						
+                        <li><a href="trade-7-1.html">Крест в диапазоне</a></li>						
+                        <li><a href="trade-7-2.html">Сигналы MACD для процедуры Две последних</a></li>
+                        
+                        <li><a href="trade-7-3.html">Построение динамических уровней для Take-profit «Omega»</a></li>
+                        <li><a href="trade-7-4.html">Работа заявки Take-profit «Omega» в длинной позиции</a></li>
+                        <li><a href="trade-7-5.html">Работа заявки Take-profit «Omega» в короткой позиции</a></li>
+                        <li><a href="trade-7-6.html">Согласование Take-profit «Omega» и новой W</a></li>
+                        <li><a href="trade-7-7.html">Премиальное восстановление заявки Take-profit «Omega»</a></li>						
+                        <li><a href="trade-7-8.html">Построение уровней «АЛЬФА» и «GМ»</a></li>
+                        <li><a href="trade-7-9.html">Достижение и активация линий «АЛЬФА» и «GМ»</a></li>
+                        <li><a href="trade-7-10.html">Корректировка заявок Take-profit (ω) </a></li>
+                        <li><a href="trade-7-11.html">Во время работы SLGМ / SLα и заявки Take-profit(ω <sub>t-1</sub>)</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Размахи</a>
+                    <ul class="sub-menu sb6">
+                        <li><a href="trade-6-1.html">Построение целей движения по размахам</a></li>
+                        
+                        <li><a href="trade-6-5.html">Порядок действий при достижении третьей цели</a></li>
+                        <li><a href="trade-6-6.html">Расчет целей на калькуляторе</a></li>
+                        <li><a href="trade-6-7.html">Открытие позиции после пробоя линии цели</a></li>
+                        <li><a href="trade-l-1-5.html">Процедура определения пробоя вверх</a></li>
+                        <li><a href="trade-sh-1-5.html">Процедура определения пробоя вниз</a></li>	
+                        <li><a href="trade-l-3-3.html">Построение отрезка дивергенции</a></li>
+                        <li><a href="trade-sh-3-3.html">Построение отрезка конвергенции</a></li>
+                    </ul>
+                </li>
+            </ul>	        
+        </div>
+        <div class="long-short">
+			
+			<div class="main-text"><!--Текст лекций-->			<!--&#10003; символы на сайте https://www.utf8icons.com/favourites </div>-->
+				
+				<h2>Определение свечной фигуры .</h2>	
+				<div class="sf clearfix">
+					<div class="sfA1"><p>Параметры свечи «<span class="red bold">А</span>»:</p></div>
+					<div class="sfA2 clearfix">
+						<div class="sfA2-1">
+							<label for="OpenASvFig">OPEN свечи:</label>
+							<label for="HighASvFig">HIGH свечи:</label>
+							<label for="LowASvFig">LOW свечи:</label>
+							<label for="CloseASvFig">CLOSE свечи:</label>
+						</div>
+						<div class="sfA2-2">
+							<form>
+								<input id="OpenASvFig" type="text" class="pole-vvoda" ><br>
+								<input id="HighASvFig" type="text" class="pole-vvoda" tabindex><br>
+								<input id="LowASvFig" type="text" class="pole-vvoda" tabindex><br>
+								<input id="CloseASvFig" type="text" class="pole-vvoda" tabindex><br>
+							</form>
+						</div>
+						
+						<!--<form>
+							<label>OPEN свечи:
+								<input id="OpenASvFig" type="text" class="pole-vvoda" ><br>
+							</label>
+							<label>HIGH свечи:
+								<input id="HighASvFig" type="text" class="pole-vvoda" tabindex><br>
+							</label>
+							<label>LOW свечи:
+								<input id="LowASvFig" type="text" class="pole-vvoda" tabindex><br>
+							</label>
+							<label>CLOSE свечи:
+								<input id="CloseASvFig" type="text" class="pole-vvoda" tabindex><br>
+							</label>
+						</form>	-->
+					</div>
+					<div class="pictureSvFig"><img src="svA.png"></div><!---->
+				</div>
+				<div class="sf clearfix">
+					<div class="sfA2 clearfix">
+						<div class="sfA2-1">
+							<label for="StepPrice">Шаг цены:</label>
+							<label for="persentSLSvFig">Процент SL:</label>
+						</div>
+						<div class="sfA2-2">
+							<form>								
+								<input id="StepPrice" type="text" value="0,01" class="pole-vvoda"><br>								
+								<input id="persentSLSvFig" type="text" class="pole-vvoda" value="3,78">
+							</form>	
+						</div>							
+						<!--<form>
+							<label>Шаг цены:
+								<input id="StepPrice" type="text" value="0,01" class="pole-vvoda"><br>
+							</label>
+							<label>Процент SL:
+								<input id="persentSLSvFig" type="text" class="pole-vvoda" value="3,78"><br>
+							</label>
+						</form>-->
+					</div>
+				</div>	
+				<div class="sf clearfix">
+					<div class="sfA1"><p>Параметры свечи «<span class="red bold">1</span>» (при наличии):</p></div>
+					<div class="sfA2 clearfix">
+						<div class="sfA2-1">
+							<label for="Open1SvFig">OPEN свечи:</label>
+							<label for="High1SvFig">HIGH свечи:</label>
+							<label for="Low1SvFig">LOW свечи:</label>
+							<label for="Close1SvFig">CLOSE свечи:</label>
+						</div>
+						<div class="sfA2-2">
+							<form>
+								<input id="Open1SvFig" type="text" class="pole-vvoda" tabindex><br>
+								<input id="High1SvFig" type="text" class="pole-vvoda" tabindex><br>
+								<input id="Low1SvFig" type="text" class="pole-vvoda" tabindex><br>
+								<input id="Close1SvFig" type="text" class="pole-vvoda" tabindex><br>
+							</form>
+						</div>
+						
+						<!--<form>
+							<label>OPEN свечи:
+								<input id="Open1SvFig" type="text" class="pole-vvoda" tabindex><br>
+							</label>
+							<label>HIGH свечи:
+								<input id="High1SvFig" type="text" class="pole-vvoda" tabindex><br>
+							</label>
+							<label>LOW свечи:
+								<input id="Low1SvFig" type="text" class="pole-vvoda" tabindex><br>
+							</label>
+							<label>CLOSE свечи:
+								<input id="Close1SvFig" type="text" class="pole-vvoda" tabindex><br>
+							</label>
+						</form>	-->
+					</div>
+					<div class="pictureSvFig"><img src="sv1.png"></div>
+				</div>	
+				<div class="sf clearfix">
+					<div class="sfA1"><p>Параметры свечи «<span class="red bold">2</span>» (при наличии):</p></div>
+					<div class="sfA2 clearfix">	
+						<div class="sfA2-1">
+							<label for="Open2SvFig">OPEN свечи:</label>
+							<label for="High2SvFig">HIGH свечи:</label>
+							<label for="Low2SvFig">LOW свечи:</label>
+							<label for="Close2SvFig">CLOSE свечи:</label>
+						</div>
+						<div class="sfA2-2">
+							<form>
+								<input id="Open2SvFig" type="text" class="pole-vvoda" tabindex><br>
+								<input id="High2SvFig" type="text" class="pole-vvoda" tabindex><br>
+								<input id="Low2SvFig" type="text" class="pole-vvoda" tabindex><br>
+								<input id="Close2SvFig" type="text" class="pole-vvoda" tabindex><br>
+							</form>	
+						</div>
+							
+						
+					</div>
+					<div class="pictureSvFig"><img src="sv2.png"></div>
+				</div>		
+				<input type="button" value="Проверить свечную фигуру для растущего движения" class="btn-SvFig-L" onclick="additionSvFigLong();"><br>
+				<input type="button" value="Проверить свечную фигуру для падающего движения" class="btn-SvFig-Sh" onclick="additionSvFigShort();">
+				<div id="resultSvFig" class="result-show-SvFig"></div>
+				<script>
+						function additionSvFigLong() {
+							var OpenASvFig = +parseFloat(document.getElementById('OpenASvFig').value);
+							var HighASvFig = +parseFloat(document.getElementById('HighASvFig').value);
+							var LowASvFig = +parseFloat(document.getElementById('LowASvFig').value);
+							var CloseASvFig = +parseFloat(document.getElementById('CloseASvFig').value);
+							
+							var StepPrice = +parseFloat(document.getElementById('StepPrice').value);
+							var persentSLSvFig = +parseFloat(document.getElementById('persentSLSvFig').value);
+				 
+							var Open1SvFig = +parseFloat(document.getElementById('Open1SvFig').value);
+							var High1SvFig = +parseFloat(document.getElementById('High1SvFig').value);
+							var Low1SvFig = +parseFloat(document.getElementById('Low1SvFig').value);
+							var Close1SvFig = +parseFloat(document.getElementById('Close1SvFig').value);
+							
+							var Open2SvFig = +parseFloat(document.getElementById('Open2SvFig').value);
+							var High2SvFig = +parseFloat(document.getElementById('High2SvFig').value);
+							var Low2SvFig = +parseFloat(document.getElementById('Low2SvFig').value);
+							var Close2SvFig = +parseFloat(document.getElementById('Close2SvFig').value);
+				 
+							if (isNaN(OpenASvFig)==true) OpenASvFig=0;
+							if (isNaN(HighASvFig)==true) HighASvFig=0;
+							if (isNaN(LowASvFig)==true) LowASvFig=0;
+							if (isNaN(CloseASvFig)==true) CloseASvFig=0;
+				 
+							if ((CloseASvFig < OpenASvFig) || ((CloseASvFig - OpenASvFig) <= StepPrice * 2)) {
+								document.getElementById('resultSvFig').innerHTML = "Признака остановки растущего движения НЕТ." ;
+								
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) &&
+										(Open1SvFig >= CloseASvFig) && (Close1SvFig >= CloseASvFig) &&
+										(Open2SvFig > Close2SvFig) && (Open2SvFig <= Close1SvFig) && ((Math.abs(Open2SvFig - Close2SvFig) > StepPrice * 2) && (Math.abs(Open2SvFig - Close2SvFig) > ((HighASvFig - LowASvFig) + (High1SvFig - Low1SvFig))*0.5 * persentSLSvFig /100 ))
+										) { 
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «брошенный ребенок» для растущего движения." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) && 
+										(Open1SvFig >= CloseASvFig) && (Close1SvFig < CloseASvFig) && (Close1SvFig >= LowASvFig) &&
+										(Open2SvFig <= Close1SvFig) && (Close2SvFig < LowASvFig)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «разворот с подтверждением» (вариант 1) для растущего движения." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) && 
+										(Open1SvFig < CloseASvFig) && (Close1SvFig >= LowASvFig) && (Math.abs(Open1SvFig - Close1SvFig) > Math.abs(OpenASvFig - CloseASvFig)*2 /10) &&
+										(Open2SvFig <= Close1SvFig) && (Close2SvFig < LowASvFig)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «разворот с подтверждением» (вариант 2) для растущего движения." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) && 
+										(Open1SvFig > Close1SvFig)	&& (Open1SvFig >= CloseASvFig) && (Close1SvFig < LowASvFig)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «разворот» (на свечах «А» и «1») для растущего движения." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) && 
+										(Open1SvFig <= CloseASvFig) && (Close1SvFig >= OpenASvFig) && (Close1SvFig <= CloseASvFig) &&
+										(Math.abs(Open1SvFig - Close1SvFig) < Math.abs(OpenASvFig - CloseASvFig)*2 /10) &&
+										(((High1SvFig - Math.max(Open1SvFig, Close1SvFig)) > Math.abs(Open1SvFig - Close1SvFig)) || ((Math.min(Open1SvFig, Close1SvFig) - Low1SvFig) > Math.abs(Open1SvFig - Close1SvFig)))) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «звезда харами» (на свечах «А» и «1») для растущего движения." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) && 
+										((HighASvFig - CloseASvFig) < (CloseASvFig - OpenASvFig)/2) && ((OpenASvFig - LowASvFig) < (CloseASvFig - OpenASvFig)/2) &&
+										(Open1SvFig > Close1SvFig) && ((High1SvFig - Open1SvFig) < (Open1SvFig - Close1SvFig)/2) && ((Close1SvFig - Low1SvFig) < (Open1SvFig - Close1SvFig)/2) && 						
+										((CloseASvFig - OpenASvFig) / (Open1SvFig - Close1SvFig) <= 11/10) && ((CloseASvFig - OpenASvFig) / (Open1SvFig - Close1SvFig) >= 9/10)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «поглощение» (на свечах «А» и «1») для растущего движения." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) &&
+										(Open1SvFig >= CloseASvFig) && (Close1SvFig >= CloseASvFig) &&
+										((Open2SvFig <= Close2SvFig) || (Open2SvFig > Close1SvFig) || (Math.abs(Open2SvFig - Close2SvFig) <= StepPrice * 2) || (Math.abs(Open2SvFig - Close2SvFig) <= ((HighASvFig - LowASvFig) + (High1SvFig - Low1SvFig))*0.5 * persentSLSvFig /100 ))
+										) { 
+										document.getElementById('resultSvFig').innerHTML = "Свечной фигуры «брошенный ребенок» для растущего движения НЕТ." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) &&
+										(Open1SvFig >= CloseASvFig) && (Close1SvFig >= CloseASvFig)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Предполагаем свечную фигуру «брошенный ребенок» для растущего движения." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) && 
+										(Open1SvFig >= CloseASvFig) && (Close1SvFig < CloseASvFig) && (Close1SvFig >= LowASvFig) &&
+										((Open2SvFig > Close1SvFig) || (Close2SvFig >= LowASvFig))) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечной фигуры «разворот с подтверждением» (вариант 1) для растущего движения НЕТ." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) && 
+										(Open1SvFig < CloseASvFig) && (Close1SvFig >= LowASvFig) && (Math.abs(Open1SvFig - Close1SvFig) > Math.abs(OpenASvFig - CloseASvFig)*2 /10) &&
+										((Open2SvFig > Close1SvFig) || (Close2SvFig >= LowASvFig))) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечной фигуры «разворот с подтверждением» (вариант 2) для растущего движения НЕТ." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) && 
+										(Open1SvFig >= CloseASvFig) && (Close1SvFig < CloseASvFig) && (Close1SvFig >= LowASvFig)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Предполагаем свечную фигуру «разворот с подтверждением» (вариант 1) для растущего движения." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) && 
+										(Open1SvFig < CloseASvFig) && (Close1SvFig >= LowASvFig) && (Math.abs(Open1SvFig - Close1SvFig) > Math.abs(OpenASvFig - CloseASvFig)*2 /10)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Предполагаем свечную фигуру «разворот с подтверждением» (вариант 2) для растущего движения." ;
+							
+							}	else if (((CloseASvFig > OpenASvFig) && ((CloseASvFig - OpenASvFig) > StepPrice * 2)) && 
+										((HighASvFig - CloseASvFig) < (CloseASvFig - OpenASvFig)/2) && ((OpenASvFig - LowASvFig) < (CloseASvFig - OpenASvFig)/2)) {
+																	
+										document.getElementById('resultSvFig').innerHTML = "Предполагаем свечную фигуру «поглощение» для растущего движения." ;
+							}
+						}
+						
+						function additionSvFigShort() {
+							var OpenASvFig = +parseFloat(document.getElementById('OpenASvFig').value);
+							var HighASvFig = +parseFloat(document.getElementById('HighASvFig').value);
+							var LowASvFig = +parseFloat(document.getElementById('LowASvFig').value);
+							var CloseASvFig = +parseFloat(document.getElementById('CloseASvFig').value);
+							
+							var StepPrice = +parseFloat(document.getElementById('StepPrice').value);
+							var persentSLSvFig = +parseFloat(document.getElementById('persentSLSvFig').value);
+				 
+							var Open1SvFig = +parseFloat(document.getElementById('Open1SvFig').value);
+							var High1SvFig = +parseFloat(document.getElementById('High1SvFig').value);
+							var Low1SvFig = +parseFloat(document.getElementById('Low1SvFig').value);
+							var Close1SvFig = +parseFloat(document.getElementById('Close1SvFig').value);
+							
+							var Open2SvFig = +parseFloat(document.getElementById('Open2SvFig').value);
+							var High2SvFig = +parseFloat(document.getElementById('High2SvFig').value);
+							var Low2SvFig = +parseFloat(document.getElementById('Low2SvFig').value);
+							var Close2SvFig = +parseFloat(document.getElementById('Close2SvFig').value);
+				 
+							if (isNaN(OpenASvFig)==true) OpenASvFig=0;
+							if (isNaN(HighASvFig)==true) HighASvFig=0;
+							if (isNaN(LowASvFig)==true) LowASvFig=0;
+							if (isNaN(CloseASvFig)==true) CloseASvFig=0;
+				 
+							if ((CloseASvFig > OpenASvFig) || ((OpenASvFig - CloseASvFig) <= StepPrice * 2)) {
+								document.getElementById('resultSvFig').innerHTML = "Признака остановки падающего движения НЕТ." ;
+								
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) &&
+										(Open1SvFig <= CloseASvFig) && (Close1SvFig <= CloseASvFig) &&
+										(Open2SvFig < Close2SvFig) && (Open2SvFig >= Close1SvFig) && ((Math.abs(Open2SvFig - Close2SvFig) > StepPrice * 2) && (Math.abs(Open2SvFig - Close2SvFig) > ((HighASvFig - LowASvFig) + (High1SvFig - Low1SvFig))*0.5 * persentSLSvFig /100 ))
+										) { 
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «брошенный ребенок» для падающего движения." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) && 
+										(Open1SvFig <= CloseASvFig) && (Close1SvFig > CloseASvFig) && (Close1SvFig <= HighASvFig) &&
+										(Open2SvFig >= Close1SvFig) && (Close2SvFig > HighASvFig)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «разворот с подтверждением» (вариант 1) для падающего движения." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) && 
+										(Open1SvFig > CloseASvFig) && (Close1SvFig <= HighASvFig) && (Math.abs(Open1SvFig - Close1SvFig) > Math.abs(OpenASvFig - CloseASvFig)*2 /10) &&
+										(Open2SvFig >= Close1SvFig) && (Close2SvFig > HighASvFig)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «разворот с подтверждением» (вариант 2) для падающего движения." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) && 
+										(Open1SvFig < Close1SvFig)	&& (Open1SvFig <= CloseASvFig) && (Close1SvFig > HighASvFig)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «разворот» (на свечах «А» и «1») для падающего движения." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) && 
+										(Open1SvFig >= CloseASvFig) && (Close1SvFig <= OpenASvFig) && (Close1SvFig >= CloseASvFig) &&
+										(Math.abs(Open1SvFig - Close1SvFig) < Math.abs(OpenASvFig - CloseASvFig)*2 /10) &&
+										(((High1SvFig - Math.max(Open1SvFig, Close1SvFig)) > Math.abs(Open1SvFig - Close1SvFig)) || ((Math.min(Open1SvFig, Close1SvFig) - Low1SvFig) > Math.abs(Open1SvFig - Close1SvFig)))) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «звезда харами» (на свечах «А» и «1») для падающего движения." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) && 
+										((HighASvFig - OpenASvFig) < (OpenASvFig - CloseASvFig)/2) && ((CloseASvFig - LowASvFig) < (OpenASvFig - CloseASvFig)/2) &&
+										(Open1SvFig < Close1SvFig) && ((High1SvFig - Close1SvFig) < (Close1SvFig - Open1SvFig)/2) && ((Open1SvFig - Low1SvFig) < (Close1SvFig - Open1SvFig)/2) &&
+										((OpenASvFig - CloseASvFig) / (Close1SvFig - Open1SvFig) <= 11/10) && ((OpenASvFig - CloseASvFig) / (Close1SvFig - Open1SvFig) >= 9/10)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечная фигура «поглощение» (на свечах «А» и «1») для падающего движения." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) &&
+										(Open1SvFig <= CloseASvFig) && (Close1SvFig <= CloseASvFig) &&
+										((Open2SvFig >= Close2SvFig) || (Open2SvFig < Close1SvFig) || (Math.abs(Open2SvFig - Close2SvFig) <= StepPrice * 2) || (Math.abs(Open2SvFig - Close2SvFig) <= ((HighASvFig - LowASvFig) + (High1SvFig - Low1SvFig))*0.5 * persentSLSvFig /100 ))
+										) { 
+										document.getElementById('resultSvFig').innerHTML = "Свечной фигуры «брошенный ребенок» для падающего движения НЕТ." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) &&
+										(Open1SvFig <= CloseASvFig) && (Close1SvFig <= CloseASvFig)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Предполагаем свечную фигуру «брошенный ребенок» для падающего движения." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) && 
+										(Open1SvFig <= CloseASvFig) && (Close1SvFig > CloseASvFig) && (Close1SvFig <= HighASvFig) &&
+										((Open2SvFig < Close1SvFig) || (Close2SvFig <= HighASvFig))) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечной фигуры «разворот с подтверждением» (вариант 1) для падающего движения НЕТ." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) && 
+										(Open1SvFig > CloseASvFig) && (Close1SvFig <= HighASvFig) && (Math.abs(Open1SvFig - Close1SvFig) > Math.abs(OpenASvFig - CloseASvFig)*2 /10) &&
+										((Open2SvFig < Close1SvFig) || (Close2SvFig <= HighASvFig))) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Свечной фигуры «разворот с подтверждением» (вариант 2) для падающего движения НЕТ." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) && 										
+										(Open1SvFig <= CloseASvFig) && (Close1SvFig > CloseASvFig) && (Close1SvFig <= HighASvFig)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Предполагаем свечную фигуру «разворот с подтверждением» (вариант 1) для падающего движения." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) && 
+										(Open1SvFig > CloseASvFig) && (Close1SvFig <= HighASvFig) && (Math.abs(Open1SvFig - Close1SvFig) > Math.abs(OpenASvFig - CloseASvFig)*2 /10)) {
+										
+										document.getElementById('resultSvFig').innerHTML = "Предполагаем свечную фигуру «разворот с подтверждением» (вариант 2) для падающего движения." ;
+							
+							}	else if (((CloseASvFig < OpenASvFig) && ((OpenASvFig - CloseASvFig) > StepPrice * 2)) && 
+										((HighASvFig - OpenASvFig) < (OpenASvFig - CloseASvFig)/2) && ((CloseASvFig - LowASvFig) < (OpenASvFig - CloseASvFig)/2)) {
+																											
+										document.getElementById('resultSvFig').innerHTML = "Предполагаем свечную фигуру «поглощение» для падающего движения." ;
+							}
+						}
+					</script>	
+				
+			</div>
+            <div>
+                <div class="sidebar"> <!--боковое меню-->
+                    <label id="rascetKol_vo"  class="rascet kol-vo" for="modal-capital">Расчет позиции</label><!-- Кнопка активации модального окна-->
+                    <label id="rascetOmega" class="rascet omega" for="modal-omega">Расчет омега</label><!-- Кнопка активации модального окна-->
+                    <label id="tabPersent" class="tab-persent" for="tab-persent">%</label><!--Кнопка активации модального окна-->
+                    <label id="rascetRasmah" class="rascet rasmah" for="modal-rasmah">Расчет размахов</label><!-- Кнопка активации модального окна-->
+                                
+                    <div class="poshag p-1" id="poshag-instr">Пошаговая инструкция</div>
+                    <div class="poshag-box">
+                        
+                        <div class="poshag p-2"><a href="trade-st-1.html">Открытие позиции (Long)</a></div>
+                        <div class="poshag p-3"><a href="trade-st-2.html">Открытие позиции (Short)</a></div>
+                        			
+                        <div class="poshag p-4"><a href="trade-st-3.html">Движение/диапазон</a></div>
+                        <div class="poshag p-6"><a href="trade-st-6.html">Свечные фигуры</a></div>
+                    </div>
+                </div>
+                <div class="sidebar" id="sidebarMobil" class="hidden"> <!--боковое меню-->
+                    <label id="rascetKol_voMobil"  class="rascet kol-vo" for="modal-capital">Расчет позиции</label><!-- Кнопка активации модального окна-->
+                    <label id="rascetOmegaMobil" class="rascet omega" for="modal-omega">Расчет омега</label><!-- Кнопка активации модального окна-->
+                    
+                    <label id="rascetRasmahMobil" class="rascet rasmah" for="modal-rasmah">Расчет размахов</label><!-- Кнопка активации модального окна-->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Модальное окно КАПИТАЛ-->
+		<div class="modal" id="rascetCapitalModal" style="display: none;">
+            <div class="modal-wrap" >
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <h2>Расчет разрешенного капитала:</h2>
+                        <label class="btn-close" id="rascetCapitalBtnClose" for="modal-capital" aria-hidden="true">×</label>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                          <label>Размер депозита:
+                              <input id="D" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <label>Процент риска:
+                              <input id="persentRisk" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <label>Опорный фрактал:
+                              <input id="fractal" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <label>Open расчетной свечи: 	
+                              <input id="openK" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <input type="button" value="Рассчитать" class="btn-count" onclick="addition1();"><br>
+                      </form>
+                        <!--расчет через форму html для js       http://blog.harrix.org/article/3286-->
+                        
+                    </div>
+                    <div class="modal-footer">				
+                        <div id="result" class="result-show"></div>
+                        <div id="result2" class="result-show"></div>	
+                    </div>
+                </div>
+
+            </div>
+        </div>                       
+                
+        <!-- Модальное окно omega-->
+		<div class="modal" id="rascetOmegaModal" style="display: none;">
+           <div class="modal-wrap" >
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <h2>Расчет Omega:</h2>
+                        <label class="btn-close" id="rascetOmegaBtnClose" for="modal-omega" aria-hidden="true">×</label>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label>Процент SL:
+                                <input id="persentSL" type="text" class="pole-vvoda"><br><!--value="5.04"-->
+                            </label>
+                            <label>Опорный фрактал:
+                                <input id="fractalOM" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <label>Open расчетной свечи: 	
+                                <input id="openOM" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <input type="button" value="Рассчитать" class="btn-count" onclick="addition2();"><br>
+                        </form>
+                    </div>
+                    <div class="modal-footer">				
+                      <div id="result3" class="result-show"></div>						
+                    </div>
+                </div>
+            </div>
+        </div>   
+           
+<!-- Модальное окно таблицы %-->
+        
+		<div class="modal" id="tabPersentModal" style="display:none ;">
+            <div class="modal-wrap" >
+                <div class="modal-dialog-persent" >
+                    <div class="modal-header">
+                        <h2>Проценты отступов:</h2>
+                        <label class="btn-close" id="tabPersentBtnClose" for="tab-persent" aria-hidden="true" >×</label>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-in-modal-12">
+                            <table class="table-in-modal-1">
+                                <caption>Таблица рисков.</caption>
+                                <tr>
+                                    <th>Тип графика</th>
+                                    <th>Процент риска</th>
+                                </tr>
+                                <tr>
+                                    <td>W</td>		<td>20%</td>								
+                                </tr>
+                                <tr>
+                                    <td>D</td>		<td>10%</td>								
+                                </tr>
+                                <tr>
+                                    <td>M60</td>	<td>5%</td>								
+                                </tr>
+                                <tr>
+                                    <td>M10</td>	<td>3%</td>								
+                                </tr>
+                                <tr>
+                                    <td>M1</td>		<td>2%</td>								
+                                </tr>							
+                            </table>
+                            <table class="table-in-modal-2">
+                                <caption>Таблица отступов.</caption>
+                                <tr>
+                                    <th>Тип графика</th>	<th>% SL</th>	<th>% омега</th>
+                                </tr>
+                                <tr>
+                                    <td>W</td>	<td>13,08</td>		<td>3,12 </td>
+                                </tr>
+                                <tr>
+                                    <td>D</td>	<td>6,9 </td>	<td>1,86 </td>
+                                </tr>
+                                <tr>
+                                    <td>M60</td>	<td>3,78 </td>	<td>0,98 </td>
+                                </tr>
+                                <tr>
+                                    <td>M10</td>	<td>1,92 </td>	<td>0,54 </td>
+                                </tr>
+                                <tr>
+                                    <td>M1</td>		<td>1,21 </td>	<td>0,37 </td>
+                                </tr>							
+                            </table>	
+                        </div>    
+                        <table class="table-in-modal-3">
+                            <caption>Таблица определения закрытия на пунктире +/- % от значения SMA10 и LB+.</caption>
+                            <tr>
+                                <th>W</th>	<th>D</th>	<th>M60</th>	<th>M10</th>	<th>M1</th>
+                            </tr>
+                            <tr>
+                                <td>0,2%</td>	<td>0,1%</td>	<td>0,05%</td>	<td>0,03%</td>	<td>0,01%</td>
+                            </tr>	
+                        </table>	
+                    </div>		
+                </div>
+            </div>
+        </div>	
+
+        <!-- Модальное окно РАЗМАХИ-->
+		<div class="modal" id="rascetRasmahModal" style="display: none;">
+            <div class="modal-wrap" >
+                <div class="modal-dialog rasmah">
+                    <div class="modal-header">
+                        <h2>Расчет целей движения по размахам:</h2>
+                            <label class="btn-close" id="rascetRasmahBtnClose" for="modal-rasmah" aria-hidden="true">×</label> 
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label>Уровень +0:
+                                <input id="level_0up" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <label>Уровень -0:
+                                <input id="level_0d" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <label>Импульс*:
+                                <input id="impuls" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <p class="rasmah-snoska">* - если импульс равен 0, введите значение соответствующего уровня +0 или -0.</p>
+                            <input type="button" value="Рассчитать" class="btn-count" onclick="addition3();"><br>
+                        </form>                        
+                    </div>
+                    <div class="modal-footer">
+                        <table>
+                            <tr>
+                                <td><span id="result_level_1up" class="result-show-rasmah"></span></td>						
+                                <td><span id="result_level_1d" class="result-show-rasmah"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="result_level_2up" class="result-show-rasmah"></span></td>						
+                                <td><span id="result_level_2d" class="result-show-rasmah"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="result_level_3up" class="result-show-rasmah"></span></td>						
+                                <td><span id="result_level_3d" class="result-show-rasmah"></span></td>
+                            </tr>
+                        </table>
+                            
+                    </div>
+                </div>
+            </div>             
+        </div>    
+             
+         
+        <!--кнопка возврата вверх страницы &#11014;-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+            
+        
+
+
+        <script src="script.js"></script>
+    </body>
+    <footer>
+        <div class="footer">
+            &#169; А. М. Савченко, 2022	
+        </div>
+        <div class="contact-menu">
+            <div>
+                <a href="mailto:mari.stek@list.ru" class="icon icon-mail">
+                        <span class="hidden1">Написать &#9993;	</span>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="icon icon-phone">
+                        <span class="hidden1">Позвонить &#9743;	</span>
+                </a>
+            </div>
+       </div>
+        
+    </footer>
+    
+</html>

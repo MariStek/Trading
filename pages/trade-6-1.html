@@ -1,0 +1,483 @@
+<!DOCTYPE html>        <!--построение целей-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+        <title>Проект</title>
+    </head>
+    
+    <body>      
+        <div class="header-box-1">
+            <div class="header-box-left">            
+                    <p class="header2">Управление позицией.</br> Управление капиталом.</p>  
+            </div>
+            <div class="header-box-right">
+                <div class="header-box-right1">
+                    <p>Автор:</br> Савченко</br> Алексей Михайлович </p>
+                </div>
+                <div class="header-box-right2 ">
+                    <p>Автор: Савченко Алексей Михайлович </p>
+                </div>
+                <div class="pic-head"><img src="head11.png"></div>
+            </div>
+        </div>
+        <div class="header-box-2">
+            
+            <button class="btn-mobil-menu-close" class="hidden"><a href="modal-menu.html">&#9776;</a></button>
+            <label class="menu-func" id="btnsRascet" for="menu-func" class="hidden">&fnof;(x)</label>
+            <label class="tab-persent" id="tabPersentMobil" for="tab-persent" class="hidden">%</label><!-- Кнопка активации модального окна-->
+            
+            <ul class="main-menu">
+                <li id="menu-mobil-1"><a href="#">Начало тренда</a>
+                    <ul class="sub-menu sb1">
+                        <li><a href="trade-l-1-1.html">Растущий фрактальный тренд</a></li>
+                        <li><a href="trade-sh-1-1.html">Падающий фрактальный тренд</a></li>
+                        <li><a href="trade-l-1-3.html">Сигнал МАСД на покупку</a></li>
+                        <li><a href="trade-sh-1-3.html">Сигнал МАСД на продажу</a></li>
+                        <li><a href="trade-l-1-2.html">Сигнал стохастика на покупку</a></li>
+                        <li><a href="trade-sh-1-2.html">Сигнал стохастика на продажу</a></li>
+                        <li><a href="trade-l-1-4.html">Сигнал "бамбука" на покупку</a></li>
+                        <li><a href="trade-sh-1-4.html">Сигнал "бамбука" на продажу</a></li>
+                        <li><a href="trade-l-1-5.html">Процедура определения пробоя вверх</a></li>
+                        <li><a href="trade-sh-1-5.html">Процедура определения пробоя вниз</a></li>
+                        <li><a href="trade-1-6.html">Блок-схемы работы по алгоритму</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Процедура открытия позиции</a>
+                    <ul class="sub-menu sb2">
+                        <li><a href="trade-l-2.html">Процедура открытия длинной позиции</a></li>
+                        <li><a href="trade-sh-2.html">Процедура открытия короткой позиции</a></li>
+                    </ul>
+                </li>	
+                <li><a href="#">Остановка тренда</a>
+                    <ul class="sub-menu sb3">
+                        <li><a href="trade-l-3-1.html">Признаки остановки растущего тренда</a></li>
+                        <li><a href="trade-sh-3-1.html">Признаки остановки падающего тренда</a></li>
+                        
+                        <li><a href="trade-l-3-2.html">Процедура расчета стандартного SL для long</a></li>
+                        <li><a href="trade-sh-3-2.html">Процедура расчета стандартного SL для short</a></li>
+                        <li><a href="trade-l-3-3.html">Построение отрезка дивергенции</a></li>
+                        <li><a href="trade-sh-3-3.html">Построение отрезка конвергенции</a></li>
+                    </ul>
+                </li>				
+                <li><a href="#">Свечные фигуры</a>
+                    <ul class="sub-menu sb4">
+                        <li><a href="trade-4-1.html">Типы свечных фигур</a></li>
+                        <li><a href="trade-l-4-2.html">Процедура определения свечной фигуры для long</a></li>
+                        <li><a href="trade-sh-4-2.html">Процедура определения свечной фигуры для short</a></li>
+                    </ul>
+                </li>	
+                <li><a href="#">ЛБ</a>
+                    <ul class="sub-menu sb5">
+                        <li><a href="trade-5-1.html">Линии Боллинджера (ЛБ) расходятся</a></li>
+                        <li><a href="trade-5-2.html">ЛБ1+: Двойной стоп-лосс (2хSL)</a></li>
+                        <li><a href="trade-5-3.html">ЛБ1+: Разрыв</a></li>
+                        <li><a href="trade-5-4.html">Изменение направления движения цены в ЛБ</a></li>
+                        <li><a href="trade-5-5.html">ЛБ3: Процедура Take-profit цели</a></li>
+                        <li><a href="trade-5-6.html">ЛБ4+: Процедура Два последних</a></li>
+                        <li><a href="trade-5-7.html">Процедура для удержания позиции в ЛБ4+</a></li>
+                        <li><a href="trade-5-8.html">«Ересь»</a></li>
+                        <li><a href="trade-5-9.html">ЛБ направлены в противоположную сторону к позиции</a></li>						
+                        
+                    </ul>
+                </li>
+                <li><a href="#">Фиксация прибыли</a>
+                    <ul class="sub-menu sb7">						
+                        <li><a href="trade-7-1.html">Крест в диапазоне</a></li>						
+                        <li><a href="trade-7-2.html">Сигналы MACD для процедуры Две последних</a></li>
+                        
+                        <li><a href="trade-7-3.html">Построение динамических уровней для Take-profit «Omega»</a></li>
+                        <li><a href="trade-7-4.html">Работа заявки Take-profit «Omega» в длинной позиции</a></li>
+                        <li><a href="trade-7-5.html">Работа заявки Take-profit «Omega» в короткой позиции</a></li>
+                        <li><a href="trade-7-6.html">Согласование Take-profit «Omega» и новой W</a></li>
+                        <li><a href="trade-7-7.html">Премиальное восстановление заявки Take-profit «Omega»</a></li>						
+                        <li><a href="trade-7-8.html">Построение уровней «АЛЬФА» и «GМ»</a></li>
+                        <li><a href="trade-7-9.html">Достижение и активация линий «АЛЬФА» и «GМ»</a></li>
+                        <li><a href="trade-7-10.html">Корректировка заявок Take-profit (ω) </a></li>
+                        <li><a href="trade-7-11.html">Во время работы SLGМ / SLα и заявки Take-profit(ω <sub>t-1</sub>)</a></li>
+                    </ul>
+                </li>
+                <li  class="vybor-punkt"><a href="#">Размахи</a>
+                    <ul class="sub-menu sb6">
+                        <li><a href="trade-6-1.html">Построение целей движения по размахам</a></li>
+                        
+                        <li><a href="trade-6-5.html">Порядок действий при достижении третьей цели</a></li>
+                        <li><a href="trade-6-6.html">Расчет целей на калькуляторе</a></li>
+                        <li><a href="trade-6-7.html">Открытие позиции после пробоя линии цели</a></li>
+                        <li><a href="trade-l-1-5.html">Процедура определения пробоя вверх</a></li>
+                        <li><a href="trade-sh-1-5.html">Процедура определения пробоя вниз</a></li>	
+                        <li><a href="trade-l-3-3.html">Построение отрезка дивергенции</a></li>
+                        <li><a href="trade-sh-3-3.html">Построение отрезка конвергенции</a></li>
+                    </ul>
+                </li>
+            </ul>	        
+        </div>
+        <div class="long-short">
+			
+			<div class="main-text"><!--Текст лекций-->
+
+                <div class="accordion"> 
+					<div class="tab">
+						<input type="checkbox" id="tab1" name="tab-group">
+						<label for="tab1" class="tab-title">Построение целей движения по размахам.</label> 
+						<section class="tab-content">
+							<ol>
+								<li>Если цена пробивает правильно любую линию цели <span class="bold">W</span> в любую сторону, то с вероятностью 80% цена достигает следующей цели:
+									<ol>
+										<li value="1">1.	В деньгах:
+											<ul class="disc">
+												<li>Если цена пробивает правильно линию цели <span class="bold">W</span> вверх, то начинаем процедуру открытия длинной позиции;</li>		
+												<li>Если цена пробивает правильно линию цели <span class="bold">W</span> вниз, то начинаем процедуру открытия короткой позиции;</li>	
+											</ul>
+										</li>
+										<li value="1">2.	В позиции:
+											<ul class="disc">
+												<li>Если цена пробивает правильно линию цели <span class="bold">W</span> в направлении позиции, то начинаем процедуру добавления позиции;</li>		
+												<li>Пробои в противоположную сторону к позиции <span class="bold">отменяются</span>;</li>
+												<li><span class="italic">При достижении цели <span class="bold">W</span> в расходящихся Линиях Боллинджера <span class="bold">LB4+</span> начинаем процедуру удержания позиции;</span></li>
+												<li><span class="italic">При достижении первой цели заканчиваются 90% спекулятивных движений. На 3 цели заканчивается 90% трендов.</span></li>
+											</ul>
+										</li>
+									</ol>	
+								</li>							
+							</ol>								
+						</section> 
+					</div> 			
+					<div class="tab">
+						<input type="checkbox" id="tab2" name="tab-group">
+						<label for="tab2" class="tab-title">Процедура построения целей по плану А.</label> 
+						<section class="tab-content"> 
+							<ol start="2">
+								<li>После определения точки W проводим две горизонтальные желтые линии через ближайший слева от точки W HIGH <span class="green">▲</span>Ф максимума и ближайший слева LOW <span class="red">▼</span>Ф минимума.
+									<ol>
+										<li value="2">1. Если на свече два фрактала – <span class="green">▲</span> и <span class="red">▼</span>Ф, то второй незанятый точкой W фрактал всегда принадлежит предыдущему левому промежутку (он не считается следующим !!!)</li>
+									</ol>	
+								</li>
+								<li>Соединяем отрезком HIGH <span class="green">▲</span>Ф максимума и LOW <span class="red">▼</span>Ф минимума, через которые проведены желтые линии размаха.
+									<ol>
+										<li value="3">1.	<span class="bold">Либо</span> отрезок направлен <span class="bold">вверх</span>, то мы его берем и откладываем от верхней желтой линии <span class="bold">вверх</span>. Через конец отрезка проводим горизонтальную <span class="italic">бронзовую</span> линию первой цели.</li>
+										<li value="3">2.	<span class="bold">Либо</span> отрезок направлен <span class="bold">вниз</span>, то мы его берем и откладываем от нижней желтой линии <span class="bold">вниз</span>. Через конец отрезка проводим горизонтальную <span class="italic">бронзовую</span> линию первой цели.</li>
+									</ol>	
+								</li>
+								<li>Аналогично копируем отрезок и откладываем вторую и третью (розовую) цели. </li>
+							</ol>								
+						</section> 
+					</div> 
+					<div class="tab">
+						<input type="checkbox" id="tab3" name="tab-group">
+						<label for="tab3" class="tab-title">Процедура построения целей по плану Б.</label> 
+						<section class="tab-content">
+							<ol start="5">
+								<li>Определяем точку <span class="bold">импульса</span>.
+									<ol>
+										<li value="5">1. Если предыдущая точка W находится <span class="bold">выше</span> верхней желтой линии размаха, то:
+											<ul class="disc">
+												<li>Начиная от предыдущей точки W, находим первую свечу входа сверху, которая закрывается <span class="bold">строго ниже</span> верхней желтой линии;</li>		
+												<li>Находим ближайший <span class="italic">слева</span> от первой свечи входа сверху правильный <span class="green">▲</span>Ф максимум (который строго выше двух свечей слева и двух свечей справа, не учитывая свечи в 9:00 и 18:40). <span class="bold">High</span> <span class="green">▲</span>Ф максимума будет <span class="bold">точкой импульса</span>. <span class="italic">Переходим к пункту <span class="bold">6</span>.</span></li>	
+											</ul>
+										</li>
+										<li value="5">2. Если предыдущая точка W находится <span class="bold">ниже</span> нижней желтой линии размаха, то:
+											<ul class="disc">
+												<li>Начиная от предыдущей точки W находим первую свечу входа, которая закрывается <span class="bold">строго выше</span> нижней желтой линии;</li>		
+												<li>Находим ближайший <span class="italic">слева</span> от первой свечи входа правильный <span class="red">▼</span>Ф минимум. <span class="bold">Low</span> <span class="red">▼</span>Ф минимума будет <span class="bold">точкой импульса</span>. <span class="italic">Переходим к пункту <span class="bold">6</span>;</span></li>	
+											</ul>
+										</li>
+										<li value="5">3. Если предыдущая точка W находится <span class="bold">между</span> желтыми линиями размаха, то размер импульса равен 0.</li>
+									</ol>
+								</li>
+								<li>Построение <span class="bold">отрезка импульса</span>: соединяем <span class="bold">точку импульса</span> с ближайшей желтой линией размаха по направлению движения (под углом 60° градусов):
+									<ol>
+										<li value="6">1. Если отрезок импульса направлен <span class="bold">вверх</span>, то мы его копируем и откладываем от <span class="bold">верхней</span> желтой линии размаха. Через конец отрезка проводим горизонтальную <span class="italic">бронзовую</span> линию первой цели.</li>
+										<li value="6">2. Если отрезок импульса направлен <span class="bold">вниз</span>, то мы его копируем и откладываем от <span class="bold">нижней</span> желтой линии размаха. Через конец отрезка проводим горизонтальную <span class="italic">бронзовую</span> линию первой цели.</li>
+										<li value="6">3. Если импульс равен 0, то третья розовая цель совпадает с соответствующей незанятой желтой линией размаха. <span class="italic">В помощнике в качестве значения импульса указываем значение желтой линии, на которой построен вариант А.</span></li>
+									</ol>
+								</li>
+								<li>Копируем отрезок импульса и откладываем вторую и третью (розовую) цель.</li>
+							</ol>							
+						</section> 
+					</div> 
+					<div class="tab">
+						<input type="checkbox" id="tab4" name="tab-group">
+						<label for="tab4" class="tab-title">Определение точек W.</label> 
+						<section class="tab-content">
+							<ol start="8">
+								<li>Либо <span class="bold">High</span> свечи <span class="underline">больше или равен</span> значению <span class="underline"><span class="bold">верхней</span> розовой цели</span>, то в графе «Дата Ожидания» указываем: ждем <span class="green">▲</span>Ф максимум, Определение точки W с пункта 8.1.: 
+									<ol>
+										<li value="8">1. Проверяем:
+											<ul class="disc">
+												<li>Если High <span class="green">▲</span>Ф максимума <span class="bold">строго ниже</span> предыдущего ближайшего <span class="green">▲</span>Ф максимума; </li>		
+												<li>Если между ними есть <span class="red">▼</span>Ф минимум,</li>	
+											</ul>
+										<span class="blue">&#10144;</span> то точку <span class="bold">High</span> последнего <span class="green">▲</span>Ф максимума обозначаем точкой W. Переходим к пункту 8.2. </li>
+										<li value="8">2. Стираем все тренды на текущем окне и строим новые цели по плану А и плану Б.</li>
+									</ol>
+								</li>
+								<li>Либо <span class="bold">Low</span> свечи <span class="underline">меньше или равен</span> значению <span class="underline"><span class="bold">нижней</span> розовой цели</span>: в графе «Дата Ожидания» указываем: ждем <span class="red">▼</span>Ф минимум, Определение точки W с пункта 9.1: 
+									<ol>
+										<li value="9">1. Проверяем:
+											<ul class="disc">
+												<li>Если Low <span class="red">▼</span>Ф минимума <span class="bold">строго выше</span> предыдущего ближайшего <span class="red">▼</span>Ф минимума; </li>		
+												<li>Если между ними есть <span class="green">▲</span>Ф максимум,</li>	
+											</ul>	
+										<span class="blue">&#10144;</span> то точку <span class="bold">Low</span> последнего <span class="red">▼</span>Ф минимума обозначаем точкой W. Переходим к пункту 9.2. </li>
+										<li value="9">2. Стираем все тренды на текущем окне и строим новые цели по плану А и плану Б.</li>
+									</ol>
+								</li>								
+								<li>Если на второй свече после новой <span class="bold">W</span> мы находимся в позиции и:
+									<ul class="disc">
+										<li>Либо гистограмма MACD <span class="bold">подтверждает</span> позицию, то:
+											<ul class="square">
+												<li>в восстанавливаемых заявках «ТП», в качестве уровня активации, указываем значение третьей розовой цели по направлению движения; </li>											
+											</ul>
+										</li>		
+										<li>Либо гистограмма MACD <span class="bold">НЕ подтверждает</span> позицию, то:
+											<ul class="square">
+												<li>в восстанавливаемых заявках ТП<span class="bold">ω</span>, в качестве уровня активации, указываем значение расчетного уровня; </li>		
+												<li>в восстанавливаемых заявках ТП<span class="bold">W</span>, в качестве уровня активации, указываем значение третьей розовой цели по направлению движения.</li>	
+											</ul>
+										</li>	
+									</ul>
+								</li>							
+							</ol>	
+						 </section> 
+					</div>
+                </div>
+                 
+			</div>	
+            <div>
+                <div class="sidebar"> <!--боковое меню-->
+                    <label id="rascetKol_vo"  class="rascet kol-vo" for="modal-capital">Расчет позиции</label><!-- Кнопка активации модального окна-->
+                    <label id="rascetOmega" class="rascet omega" for="modal-omega">Расчет омега</label><!-- Кнопка активации модального окна-->
+                    <label id="tabPersent" class="tab-persent" for="tab-persent">%</label><!--Кнопка активации модального окна-->
+                    <label id="rascetRasmah" class="rascet rasmah" for="modal-rasmah">Расчет размахов</label><!-- Кнопка активации модального окна-->
+                                
+                    <div class="poshag p-1" id="poshag-instr">Пошаговая инструкция</div>
+                    <div class="poshag-box">
+                        
+                        <div class="poshag p-2"><a href="trade-st-1.html">Открытие позиции (Long)</a></div>
+                        <div class="poshag p-3"><a href="trade-st-2.html">Открытие позиции (Short)</a></div>
+                        			
+                        <div class="poshag p-4"><a href="trade-st-3.html">Движение/диапазон</a></div>
+                        <div class="poshag p-6"><a href="trade-st-6.html">Свечные фигуры</a></div>
+                    </div>
+                </div>
+                <div class="sidebar" id="sidebarMobil" class="hidden"> <!--боковое меню-->
+                    <label id="rascetKol_voMobil"  class="rascet kol-vo" for="modal-capital">Расчет позиции</label><!-- Кнопка активации модального окна-->
+                    <label id="rascetOmegaMobil" class="rascet omega" for="modal-omega">Расчет омега</label><!-- Кнопка активации модального окна-->
+                    
+                    <label id="rascetRasmahMobil" class="rascet rasmah" for="modal-rasmah">Расчет размахов</label><!-- Кнопка активации модального окна-->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Модальное окно КАПИТАЛ-->
+		<div class="modal" id="rascetCapitalModal" style="display: none;">
+            <div class="modal-wrap" >
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <h2>Расчет разрешенного капитала:</h2>
+                        <label class="btn-close" id="rascetCapitalBtnClose" for="modal-capital" aria-hidden="true">×</label>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                          <label>Размер депозита:
+                              <input id="D" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <label>Процент риска:
+                              <input id="persentRisk" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <label>Опорный фрактал:
+                              <input id="fractal" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <label>Open расчетной свечи: 	
+                              <input id="openK" type="text" class="pole-vvoda"><br>
+                          </label>
+                          <input type="button" value="Рассчитать" class="btn-count" onclick="addition1();"><br>
+                      </form>
+                        <!--расчет через форму html для js       http://blog.harrix.org/article/3286-->
+                        
+                    </div>
+                    <div class="modal-footer">				
+                        <div id="result" class="result-show"></div>
+                        <div id="result2" class="result-show"></div>	
+                    </div>
+                </div>
+
+            </div>
+        </div>                       
+                
+        <!-- Модальное окно omega-->
+		<div class="modal" id="rascetOmegaModal" style="display: none;">
+           <div class="modal-wrap" >
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <h2>Расчет Omega:</h2>
+                        <label class="btn-close" id="rascetOmegaBtnClose" for="modal-omega" aria-hidden="true">×</label>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label>Процент SL:
+                                <input id="persentSL" type="text" class="pole-vvoda"><br><!--value="5.04"-->
+                            </label>
+                            <label>Опорный фрактал:
+                                <input id="fractalOM" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <label>Open расчетной свечи: 	
+                                <input id="openOM" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <input type="button" value="Рассчитать" class="btn-count" onclick="addition2();"><br>
+                        </form>
+                    </div>
+                    <div class="modal-footer">				
+                      <div id="result3" class="result-show"></div>						
+                    </div>
+                </div>
+            </div>
+        </div>   
+           
+<!-- Модальное окно таблицы %-->
+        
+		<div class="modal" id="tabPersentModal" style="display:none ;">
+            <div class="modal-wrap" >
+                <div class="modal-dialog-persent" >
+                    <div class="modal-header">
+                        <h2>Проценты отступов:</h2>
+                        <label class="btn-close" id="tabPersentBtnClose" for="tab-persent" aria-hidden="true" >×</label>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-in-modal-12">
+                            <table class="table-in-modal-1">
+                                <caption>Таблица рисков.</caption>
+                                <tr>
+                                    <th>Тип графика</th>
+                                    <th>Процент риска</th>
+                                </tr>
+                                <tr>
+                                    <td>W</td>		<td>20%</td>								
+                                </tr>
+                                <tr>
+                                    <td>D</td>		<td>10%</td>								
+                                </tr>
+                                <tr>
+                                    <td>M60</td>	<td>5%</td>								
+                                </tr>
+                                <tr>
+                                    <td>M10</td>	<td>3%</td>								
+                                </tr>
+                                <tr>
+                                    <td>M1</td>		<td>2%</td>								
+                                </tr>							
+                            </table>
+                            <table class="table-in-modal-2">
+                                <caption>Таблица отступов.</caption>
+                                <tr>
+                                    <th>Тип графика</th>	<th>% SL</th>	<th>% омега</th>
+                                </tr>
+                                <tr>
+                                    <td>W</td>	<td>13,08</td>		<td>3,12 </td>
+                                </tr>
+                                <tr>
+                                    <td>D</td>	<td>6,9 </td>	<td>1,86 </td>
+                                </tr>
+                                <tr>
+                                    <td>M60</td>	<td>3,78 </td>	<td>0,98 </td>
+                                </tr>
+                                <tr>
+                                    <td>M10</td>	<td>1,92 </td>	<td>0,54 </td>
+                                </tr>
+                                <tr>
+                                    <td>M1</td>		<td>1,21 </td>	<td>0,37 </td>
+                                </tr>							
+                            </table>	
+                        </div>    
+                        <table class="table-in-modal-3">
+                            <caption>Таблица определения закрытия на пунктире +/- % от значения SMA10 и LB+.</caption>
+                            <tr>
+                                <th>W</th>	<th>D</th>	<th>M60</th>	<th>M10</th>	<th>M1</th>
+                            </tr>
+                            <tr>
+                                <td>0,2%</td>	<td>0,1%</td>	<td>0,05%</td>	<td>0,03%</td>	<td>0,01%</td>
+                            </tr>	
+                        </table>	
+                    </div>		
+                </div>
+            </div>
+        </div>	
+
+        <!-- Модальное окно РАЗМАХИ-->
+		<div class="modal" id="rascetRasmahModal" style="display: none;">
+            <div class="modal-wrap" >
+                <div class="modal-dialog rasmah">
+                    <div class="modal-header">
+                        <h2>Расчет целей движения по размахам:</h2>
+                            <label class="btn-close" id="rascetRasmahBtnClose" for="modal-rasmah" aria-hidden="true">×</label> 
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label>Уровень +0:
+                                <input id="level_0up" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <label>Уровень -0:
+                                <input id="level_0d" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <label>Импульс*:
+                                <input id="impuls" type="text" class="pole-vvoda"><br>
+                            </label>
+                            <p class="rasmah-snoska">* - если импульс равен 0, введите значение соответствующего уровня +0 или -0.</p>
+                            <input type="button" value="Рассчитать" class="btn-count" onclick="addition3();"><br>
+                        </form>                        
+                    </div>
+                    <div class="modal-footer">
+                        <table>
+                            <tr>
+                                <td><span id="result_level_1up" class="result-show-rasmah"></span></td>						
+                                <td><span id="result_level_1d" class="result-show-rasmah"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="result_level_2up" class="result-show-rasmah"></span></td>						
+                                <td><span id="result_level_2d" class="result-show-rasmah"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="result_level_3up" class="result-show-rasmah"></span></td>						
+                                <td><span id="result_level_3d" class="result-show-rasmah"></span></td>
+                            </tr>
+                        </table>
+                            
+                    </div>
+                </div>
+            </div>             
+        </div>    
+             
+         
+        <!--кнопка возврата вверх страницы &#11014;-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+            
+        
+
+
+        <script src="script.js"></script>
+    </body>
+    <footer>
+        <div class="footer">
+            &#169; А. М. Савченко, 2022	
+        </div>
+        <div class="contact-menu">
+            <div>
+                <a href="mailto:mari.stek@list.ru" class="icon icon-mail">
+                        <span class="hidden1">Написать &#9993;	</span>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="icon icon-phone">
+                        <span class="hidden1">Позвонить &#9743;	</span>
+                </a>
+            </div>
+       </div>
+        
+    </footer>
+    
+</html>
